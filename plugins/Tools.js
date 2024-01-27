@@ -1,5 +1,3 @@
-
-
 const axios = require('axios');
 const fs = require('fs-extra')
 const { plugins,plugindb, remove, isUrl,Module_Exports , tlang  , name } = require('../lib')
@@ -8,7 +6,7 @@ const sɪɢᴍᴀ_ᴍᴅ = require('../lib/plugins')
 sɪɢᴍᴀ_ᴍᴅ.Module_Exports({
     kingcmd: "ping",
     infocmd: "To check ping",
-    kingclass: "tools",
+    kingclass: "tool commands",
     use: " ",
 },
 async(sigma, person) => {
@@ -16,21 +14,20 @@ async(sigma, person) => {
     const { key } = await sigma.sendMessage(person.chat, {text: '_Checking ping!!!_'});
     var final = new Date().getTime();
    // await Secktor.sleep(1000)
-   return await sigma.sendMessage(person.chat, {text: '*𝘗𝘐𝘕𝘎*\n *' + (final - inital) + ' 𝘔𝘚* ', edit: key});
+   return await sigma.sendMessage(person.chat, {text: '*PONG*\n *' + (final - inital) + ' Seconds* ', edit: key});
 }
 );
 //---------------------------------------------------------------------------
 Module_Exports({
         kingcmd: "plugins",
         shortcut :['plugin',"plist"],
-        kingclass: "tools",
+        kingclass: "tool commands",
         infocmd: "Shows list of all externally installed modules",
         kingpath: __filename
     },
     async(Void, citel, text, { isCreator }) => {
  
         if (!isCreator) return citel.reply(tlang().owner)
-      // if(!text) return await citel.reply("*_Uhh Please, Provide Me Plugin Url_*")
         let allmodtext = `*All External Installed Modules in ${snam}:*\n\n`
         allmodtext += await plugins()
         return await citel.reply(allmodtext)
@@ -42,7 +39,7 @@ Module_Exports({
 Module_Exports({
         kingcmd: "remove",
         shortcut :['uninstall'],
-        kingclass: "tools",
+        kingclass: "tool commands",
         infocmd: "removes external modules.",
         kingpath: __filename
     },
@@ -71,7 +68,7 @@ Module_Exports({
 
 Module_Exports({
   kingcmd: "install",
-  kingclass: "tools",
+  kingclass: "tools commands",
   kingpath: "Installs external Plugins..",
   use: " ",
 },
@@ -88,14 +85,9 @@ Module_Exports(
      kingcmd: "restart",
      shortcut: ["res"],
      infocmd: "To restart bot",
-     kingclass: "tools",
+     kingclass: "tool commands",
       kingpath: __filename
      }, async(Void, citel,text,{ isCreator }) => {
           if (!isCreator) return citel.reply(tlang().owner);
             const { exec } = require("child_process");
              citel.reply(`*_Please Wait While_*\n*_${name.botname} Restarting_*`); exec('pm2 restart all'); });
-
-
-
-
-
