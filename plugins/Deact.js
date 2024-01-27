@@ -3,7 +3,7 @@
          kingcmd: "deact",
   shortcut : ['deactive','deactivate'],
          infocmd: "Switches for varios works.",
-         kingclass: "group",
+         kingclass: "group commands",
          kingpath: __filename
      },
      async(Void, citel, text,{ isCreator }) => {
@@ -15,7 +15,7 @@
          const isAdmins = citel.isGroup ? groupAdmins.includes(citel.sender) : false;
          //-----------------------------------------  
          if (!citel.isGroup) return citel.reply(tlang().group)
-         if (!text) return citel.reply(`*_Please provide me term like like_*\n1-events\n2-antilink\n3-nsfw\n4-cardgame\n5-bot`)
+         if (!text) return citel.reply(`*_Please provide me term like like_*\n1-events\n2-antilink\n3-cardgame\n4-bot`)
          if (isCreator){console.log("this is a Bot Number in Deact Functions")}
         else if (!isAdmins) return citel.reply(tlang().admin)
          switch (text.split(" ")[0]) {
@@ -25,11 +25,11 @@
                     if (!checkgroup) {
                         await new sck({ id: citel.chat, antilink: "false" })
                             .save()
-                        return citel.reply(' *_Antilink disabled Successfully_*')
+                        return citel.reply(' Antilink disabled Successfully.')
                     } else {
-                        if (checkgroup.antilink == "false") return citel.reply("_Antilink was already disabled._")
+                        if (checkgroup.antilink == "false") return citel.reply("Antilink was already disabled.")
                         await sck.updateOne({ id: citel.chat }, { antilink: "false" })
-                        citel.reply('_Disabled antilink in current chat_.')
+                        citel.reply('Disabled antilink in current chat.')
                         return
                     }
                 }
@@ -40,11 +40,11 @@
                     if (!checkgroup) {
                         await new sck({ id: citel.chat, economy: "false" })
                             .save()
-                        return citel.reply(' *_Economy disabled Successfully_*')
+                        return citel.reply(' Economy disabled Successfully.')
                     } else {
-                        if (checkgroup.economy == "false") return citel.reply("_Economy was already disabled._")
+                        if (checkgroup.economy == "false") return citel.reply("Economy was already disabled.")
                         await sck.updateOne({ id: citel.chat }, { economy: "false" })
-                        citel.reply('*_Disabled Economy in current chat_*')
+                        citel.reply('Disabled Economy in current chat.')
                         return
                     }
                 }
@@ -55,11 +55,11 @@
                         if (!checkgroup) {
                             await new sck({ id: citel.chat, events: "false" })
                                 .save()
-                            return citel.reply("Successfully disabled *Events*")
+                            return citel.reply("Successfully disabled Events.")
                         } else {
-                            if (checkgroup.events == "false") return citel.reply("*Events* are already disabled")
+                            if (checkgroup.events == "false") return citel.reply("Events are already disabled.")
                             await sck.updateOne({ id: citel.chat }, { events: "false" })
-                            return citel.reply("Successfully disabled *Events*")
+                            return citel.reply("Successfully disabled Events.")
                         }
                     }
                     break
@@ -69,17 +69,17 @@
                         if (!checkgroup) {
                             await new sck({ id: citel.chat, cardgame: "deactive" })
                                 .save()
-                            return citel.reply("Successfully disabled *Card Game*")
+                            return citel.reply("Successfully disabled Card Game.")
                         } else {
-                            if (checkgroup.cardgame == "deactive") return citel.reply("*Card Game* was already disabled")
+                            if (checkgroup.cardgame == "deactive") return citel.reply("Card Game was already disabled.")
                             await sck.updateOne({ id: citel.chat }, { cardgame: "deactive" })
-                            return citel.reply("Successfully disabled *Card Game.*")
+                            return citel.reply("Successfully disabled Card Game.")
                         }
                     }
                     break
                 default:
                     {
-                        citel.reply("Please provide me term like.\n1-events\n2-antilink\n3-nsfw\n4-cardgame")
+                        citel.reply("Please provide me term like.\n1-events\n2-antilink\n3-cardgame")
                     }
          }
      }
