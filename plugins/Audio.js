@@ -6,7 +6,7 @@ const ffmpeg = require("fluent-ffmpeg")
 Module_Exports({
         kingcmd: "bass",
         infocmd: "adds bass in given sound",
-        kingclass: "audio",
+        kingclass: "media editor commands",
         use: '<reply to any audio>',
     },
     async(bot, citel) => {
@@ -32,7 +32,7 @@ Module_Exports({
             });
         } else
             citel.send(
-                `Reply to the audio you want to change with*`
+                `Reply to the audio you want to change with.`
             );
     }
 )
@@ -40,7 +40,7 @@ Module_Exports({
 Module_Exports({
         kingcmd: "blown",
         infocmd: "adds blown in given audio",
-        kingclass: "audio",
+        kingclass: "media editor commands",
         use: '<reply to any audio>',
     },
     async(bot, citel) => {
@@ -66,7 +66,7 @@ Module_Exports({
             });
         } else
             citel.send(
-                `Reply to the audio you want to change with.*`
+                `Reply to the audio you want to change with.`
             );
     }
 )
@@ -74,7 +74,7 @@ Module_Exports({
 Module_Exports({
         kingcmd: "deep",
         infocmd: "adds deep effect in given audio",
-        kingclass: "audio",
+        kingclass: "media editor commands",
         use: '<reply to any audio>',
       //  react:"✅",
     },
@@ -101,7 +101,7 @@ Module_Exports({
             });
         } else
             citel.send(
-                `Reply to the audio you want to change with.*`
+                `Reply to the audio you want to change with.`
             );
     }
 )
@@ -109,7 +109,7 @@ Module_Exports({
 Module_Exports({
         kingcmd: "fast",
         infocmd: "Adds fast(equilizer) in quoted audio.",
-        kingclass: "audio",
+        kingclass: "media editor commands",
         use: '<reply to any audio>',
     },
     async(bot, citel) => {
@@ -135,7 +135,7 @@ Module_Exports({
             });
         } else
             citel.send(
-                `Reply to the audio you want to change with.*`
+                `Reply to the audio you want to change with.`
             );
     }
 )
@@ -143,7 +143,7 @@ Module_Exports({
 Module_Exports({
         kingcmd: "reverse",
         infocmd: "Adds reverse(equilizer) in quoted audio.",
-        kingclass: "audio",
+        kingclass: "media editor commands",
         use: '<reply to any audio>',
       //  react:"✅",
     },
@@ -161,6 +161,6 @@ Module_Exports({
                 bot.sendMessage( citel.chat, {  audio: buff, mimetype: "audio/mpeg",}, { quoted: citel, });
                 fs.unlinkSync(ran);
             });
-        } else  citel.send(`Reply to the audio you want to change with.*`);
+        } else  citel.send(`Reply to the audio you want to change with.`);
     }
 )
