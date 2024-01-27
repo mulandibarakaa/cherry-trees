@@ -4,7 +4,7 @@ Module_Exports({
         kingcmd: "act",
         shortcut:['activate','active'],
         infocmd: "Switches for varios works.",
-        kingclass: "general",
+        kingclass: "general commands",
         kingpath: __filename,
     },
     async(Void, citel, text,{ isCreator }) => {
@@ -15,7 +15,7 @@ Module_Exports({
         const isAdmins = citel.isGroup ? groupAdmins.includes(citel.sender) :false;
         //-----------------------------------------
         if (!citel.isGroup) return citel.reply(tlang().group)
-        if (!text) return citel.reply(`*_Please provide me term like like_*\n1-events\n2-antilink\n3-nsfw\n4-bot`)
+        if (!text) return citel.reply(`*_Please provide me term like like_*\n1-events\n2-antilink\n3-bot`)
         if (isCreator){console.log("this is a Bot Number in Act Functions")}
         else if (!isAdmins) return citel.reply(tlang().admin)
         switch (text.split(" ")[0]) {
@@ -80,7 +80,7 @@ Module_Exports({
                 break
             default:
                 {
-                    citel.reply("Please provide me term like.\n1-events\n2-antilink\n3-nsfw\n4-economy")
+                    citel.reply("Please provide me term like.\n1-events\n2-antilink\n3-economy")
                 }
         }
     }
