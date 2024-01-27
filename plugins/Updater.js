@@ -15,7 +15,7 @@ async function updateHerokuApp() {
       const gitUrl = app.git_url.replace('https://', `https://api:${process.env.HEROKU_API_KEY}@`);
       try { await git.addRemote('heroku', gitUrl); } catch(e) { console.log('Heroku remote adding error');  }
       await git.push('heroku', 'main');
-      return "*_Bot Updated SuccessFully_*\n*_Wait While Restarting_*";
+      return "*Bot Updated SuccessFully_*\n*_Wait While Restarting*";
     }
   } 
 //---------------------------------------------------------------------------
@@ -23,30 +23,24 @@ Module_Exports({
             kingcmd: "checkupdate",
             shortcut: ["ud", "update"],
             infocmd: "Shows repo\'s refreshed commits.",
-            kingclass: "tools",
+            kingclass: "tool commands",
             kingpath: __filename
         },
         async(Void, citel, text,{ isCreator }) => {
             if (!isCreator) return citel.reply(tlang().owner)
             let commits = await DB.syncgit()
-            if (commits.total === 0) return await citel.reply(`*_HEY_* *_${name.ownername}_* *_Your Bot Is_*\n*_Running on Latest Version_*`) 
+            if (commits.total === 0) return await citel.reply(`*Hello ${name.ownername} Your bot is on Latest Version*`) 
             let update = await DB.sync()
             await Void.sendMessage(citel.chat, { text: update, },{ quoted : citel });
 
 
 if(text == 'all')
 {
-          citel.reply(`*_Started Updating You Bot..._*\n*_Please Wait..._*`);
+          citel.reply(`*Updating You Bot..._*\n*_Please Wait..._*`);
           const update = await updateHerokuApp();
           return await citel.reply(update);
 }
 else return
-
-
-
-
-
-
 })
   
 //---------------------------------------------------------------------------
@@ -59,17 +53,17 @@ if(name.HEROKU_APP_NAME && name.HEROKU_API_KEY )
                  kingcmd: "updatenow",
                  shortcut: ["ubot", "updateall", "updatebot"],
                  infocmd: "Shows repo\'s refreshed commits.",
-                 kingclass: "tools",
+                 kingclass: "tool commands",
                  kingpath: __filename
              },
         async(Void, citel, text,{ isCreator }) => {
                 if(!isCreator) return await citel.reply(tlang().owner)
                 let commits = await DB.syncgit()
-                if (commits.total === 0) return await citel.reply(`*_HEY_* *_${name.ownername}_* *_Your Bot Is_*\n*_Running on Latest Version_*`)
+                if (commits.total === 0) return await citel.reply(`*Hello ${name.ownername} Your Bot is on Latest Version*`)
                 let update = await DB.sync()
                 let buttonMessaged = 
                 {
-                     text:" ⬇️ *Updating Your Bot...!",
+                     text:" ⬇️ Updating Your Bot...!",
                      footer: 'UPDATER --- sᴜʜᴀɪʟ ᴛᴇᴄʜ ɪɴғᴏ \nAstropeda',
                      headerType: 4,
                 };
