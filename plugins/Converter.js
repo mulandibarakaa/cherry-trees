@@ -9,7 +9,7 @@ const { Sticker, createSticker, StickerTypes } = require("wa-sticker-formatter")
 Module_Exports({
             kingcmd: "photo",
             infocmd: "Makes photo of replied sticker.",
-            kingclass: "converter",
+            kingclass: "converter commands",
             use: 'reply to any gif/sticker',
             kingpath: __filename
         },
@@ -41,7 +41,7 @@ Module_Exports({
              kingcmd: "vv",
              shortcut : ['viewonce','retrive'],
              infocmd: "Send VV MEssage in current message",
-             kingclass: "converter",
+             kingclass: "converter commands",
              use: '',
              kingpath: __filename
          },
@@ -92,7 +92,7 @@ Module_Exports({
             kingcmd: "attp",
 
             infocmd: "Makes sticker of replied image/video.",
-            kingclass: "sticker",
+            kingclass: "sticker commands",
 kingpath: __filename,
             use: ''
         },
@@ -116,10 +116,10 @@ let media  = await getBuffer(url)
         }
     )
 Module_Exports({
-            kingcmd: "stiker",
+            kingcmd: "sticker",
             shortcut: ["s"],
             infocmd: "Makes sticker of replied image/video.",
-            kingclass: "sticker",
+            kingclass: "sticker commands",
 kingpath: __filename,
             use: 'reply to any image/video'
         },
@@ -132,9 +132,9 @@ if (mime =="imageMessage" || mime =="videoMessage") {  media = await citel.downl
 else if (citel.quoted){ 
  mime = citel.quoted.mtype; 
  if (mime =="imageMessage" || mime =="videoMessage" || mime =="stickerMessage") {  media = await citel.quoted.download(); }
- else return citel.reply("```Uhh,Please reply to any image or video```")
+ else return citel.reply("Please reply to any image or video.")
 }
-else return citel.reply("```Uhh,Please reply to any image or video```");
+else return citel.reply("Please reply to any image or video.");
           
 if(mime =="videoMessage")
 {
@@ -167,7 +167,7 @@ Module_Exports({
             kingcmd: "circle",
             shortcut: ["circlestic","circlesticker","cs"],
             infocmd: "Makes sticker of replied image/video.",
-            kingclass: "sticker",
+            kingclass: "sticker commands",
 kingpath: __filename,
             use: 'reply to any image/video.'
         },
@@ -199,12 +199,12 @@ Module_Exports({
             kingcmd: "crop",
             shortcut: ["cropstic","csticker","cropsticker","cr"],
             infocmd: "Makes sticker of replied image/video.",
-            kingclass: "sticker",
+            kingclass: "sticker commands",
 kingpath: __filename,
             use: 'reply to any image/video.'
         },
         async(sigma, citel, text) => {
-            if (!citel.quoted) return citel.reply(`*_Reply To any Image or video_*`);
+            if (!citel.quoted) return citel.reply(`Reply To any Image or video.`);
           //console.log("Quoted Data here : ",citel.quoted);
             let mime = citel.quoted.mtype
             pack = name.packname
@@ -222,7 +222,7 @@ kingpath: __filename,
                 });
                 const buffer = await sticker.toBuffer();
                 return sigma.sendMessage(citel.chat, {sticker: buffer}, {quoted: citel });
-            }else return citel.reply("*_Please reply to any image_*");
+            }else return citel.reply("Please reply to any image.");
 
         }
     )
@@ -231,7 +231,7 @@ Module_Exports({
             kingcmd: "round",
             shortcut: ["roundstic","roundsticker","rd"],
             infocmd: "Makes sticker of replied image/video.",
-            kingclass: "sticker",
+            kingclass: "sticker commands",
 kingpath: __filename,
             use: 'reply to any image/video'
         },
@@ -263,7 +263,7 @@ kingpath: __filename,
 Module_Exports({
             kingcmd: "memegen",
             infocmd: "Write text on quoted image.",
-            kingclass: "sticker",
+            kingclass: "sticker commands",
             kingpath: __filename,
             use: '',
         },
@@ -273,7 +273,7 @@ Module_Exports({
 
           let textt = text.split('|')[0] || '' ;
           let isCheck = text.split('|')[1] || 'sticker'; 
-          let tex1 =  textt.split(';')[0] || 'Suhail' ;    
+          let tex1 =  textt.split(';')[0] || 'Astro' ;    
           let tex2 =  textt.split(';')[1] || '_' ;
 
             let mee = await sigma.downloadAndSaveMediaMessage(citel.quoted)
@@ -304,7 +304,7 @@ Module_Exports({
             kingcmd: "quotely",
             infocmd: "Makes Sticker of quoted text.",
             shortcut: ["q"],
-            kingclass: "sticker",
+            kingclass: "sticker commands",
             use: 'reply to any message',
             kingpath: __filename
         },
@@ -357,7 +357,7 @@ Module_Exports({
 Module_Exports({
             kingcmd: "fancy",
             infocmd: "Makes stylish/fancy given text",
-            kingclass: "converter",
+            kingclass: "converter commands",
             use: '56 ASTA-MD',
             //react: "✅",
             kingpath: __filename
@@ -365,7 +365,7 @@ Module_Exports({
         async(sigma, citel, text) => {
             if (isNaN(text.split(" ")[0]) || !text) {
                 let text = tiny(
-                    `*_fancy text generator_*\n★━━━━━━━━━━━━━━━━━━━━━★\n*example: ${prefix}fancy 32 _i am sigma male_*\n★━━━━━━━━━━━━━━━━━━━━━★\n\n`
+                    `*_fancy text generator_*\n*example: ${prefix}fancy 32 my name is astro\n`
                 );
                 listall("ASTA-MD").forEach((txt, num) => {
                     text += `${(num += 1)} ${txt}\n`;
@@ -382,7 +382,7 @@ Module_Exports({
 Module_Exports({
             kingcmd: "tiny",
             infocmd: "Makes url tiny.",
-            kingclass: "converter",
+            kingclass: "converter commands",
             use: 'www.google.com',
            // react: "✅",
             kingpath: __filename
@@ -403,7 +403,7 @@ Module_Exports({
         kingcmd: "toaudio",
         shortcut:['mp3','tomp3'],
         infocmd: "changes type to audio.",
-        kingclass: "converter",
+        kingclass: "converter commands",
         use: 'reply to any Video',
         kingpath: __filename
     },
@@ -433,13 +433,13 @@ Module_Exports({
     kingcmd: "toMp4",
     shortcut:['mp4','tovideo','tovid'],
     infocmd: "changes type to audio.",
-    kingclass: "converter",
+    kingclass: "converter commands",
     use: 'reply to any Video',
     kingpath: __filename
 },
 async(sigma, citel, text) => {
     const { webp2mp4File } = require ("../lib")
-    if (!citel.quoted) return citel.send('*_Reply To Animated Sticker or Gif_*')
+    if (!citel.quoted) return citel.send('Reply To Animated Sticker or Gif')
     let mime = citel.quoted.mtype
     let mimetype = citel.quoted.mimetype
     if( mime !="videoMessage" && !/webp/.test(mimetype)) return await citel.send("*_Idiot... Reply To An Animated Sticker or Gif_*")
@@ -456,26 +456,26 @@ Module_Exports({
     kingcmd: "pastebin",
     shortcut:["pbin"],
     infocmd: "To check ping",
-    kingclass: "converter",
+    kingclass: "converter commands",
     kingpath: __filename,
 },
 async(Void, citel,text) => { 
 if (!text) { text=citel.quoted.text;}
-    if(!text) return citel.reply('*_Please Reply To Any Text To Get Link._*');
+    if(!text) return citel.reply('Please Reply To Any Text To Get Link.');
     let data = await pastebin.createPaste(text, "Astro");
-    return citel.reply(`*_Here is your link._*\n`+data+`\n${sgen}`);
+    return citel.reply(`Here is your link.\n`+data+`\n${sgen}`);
 }
 );
 //----------------------------------------------- ---------------------------
 Module_Exports({
     kingcmd: "paste",
     infocmd: "create paste of text.",
-    kingclass: "converter",
+    kingclass: "converter commands",
     kingpath: __filename,
 },
 async(Void, citel,text) => {
 let a = citel.quoted ? citel.quoted.text : citel.text;
-let { data } = await axios.get(`https://api.telegra.ph/createPage?access_token=d3b25feccb89e508a9114afb82aa421fe2a9712b963b387cc5ad71e58722&title=Asta-Md+Bot&author_name=Maher_Zubair&content=[%7B"tag":"p","children":["${a.replace(/ /g,'+')}"]%7D]&return_content=true`);
+let { data } = await axios.get(`https://api.telegra.ph/createPage?access_token=d3b25feccb89e508a9114afb82aa421fe2a9712b963b387cc5ad71e58722&title=Asta-Md+Bot&author_name=Astro&content=[%7B"tag":"p","children":["${a.replace(/ /g,'+')}"]%7D]&return_content=true`);
 return citel.reply(`*Paste created on telegraph*\nName:${util.format(data.result.title)} \nUrl: ${util.format(data.result.url)}`)
 }
 );
@@ -487,7 +487,7 @@ Module_Exports({
 
     infocmd: "Makes glowing sticker of text.",
 
-    kingclass: "sticker",
+    kingclass: "sticker commands",
 
     kingpath: __filename,
 
@@ -511,7 +511,7 @@ Module_Exports({
 
     infocmd: "Makes glowing sticker of text.",
 
-    kingclass: "sticker",
+    kingclass: "sticker commands",
 
     kingpath: __filename,
 
@@ -535,7 +535,7 @@ Module_Exports({
 
     infocmd: "Makes glowing sticker of text.",
 
-    kingclass: "sticker",
+    kingclass: "sticker commands",
 
     kingpath: __filename,
 
@@ -559,7 +559,7 @@ Module_Exports({
 
     infocmd: "Makes glowing sticker of text.",
 
-    kingclass: "sticker",
+    kingclass: "sticker commands",
 
     kingpath: __filename,
 
@@ -583,7 +583,7 @@ Module_Exports({
 
     infocmd: "Makes glowing sticker of text.",
 
-    kingclass: "sticker",
+    kingclass: "sticker commands",
 
     kingpath: __filename,
 
@@ -607,7 +607,7 @@ Module_Exports({
 
     infocmd: "Makes glowing sticker of text.",
 
-    kingclass: "sticker",
+    kingclass: "sticker commands",
 
     kingpath: __filename,
 
@@ -631,7 +631,7 @@ Module_Exports({
 
     infocmd: "Makes glowing sticker of text.",
 
-    kingclass: "sticker",
+    kingclass: "sticker commands",
 
     kingpath: __filename,
 
@@ -655,7 +655,7 @@ Module_Exports({
 
     infocmd: "Makes glowing sticker of text.",
 
-    kingclass: "sticker",
+    kingclass: "sticker commands",
 
     kingpath: __filename,
 
