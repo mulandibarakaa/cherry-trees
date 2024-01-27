@@ -6,7 +6,7 @@ const sɪɢᴍᴀ_ᴍᴅ = require('../lib/plugins')
 sɪɢᴍᴀ_ᴍᴅ.Module_Exports({
     kingcmd: "ping",
     infocmd: "To check ping",
-    kingclass: "tool commands",
+    kingclass: "tools commands",
     use: " ",
 },
 async(sigma, person) => {
