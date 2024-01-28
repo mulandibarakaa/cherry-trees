@@ -11,7 +11,7 @@ const fetch = require('node-fetch');
 
 Module_Exports({
             kingcmd: "qr",
-            kingclass: "misc",
+            kingclass: "misc commands",
             kingpath: __filename,
             infocmd: "Sends Qr code to scan and get your session id."
         },
@@ -55,7 +55,7 @@ Module_Exports({
 Module_Exports({
     kingcmd: "rmbg",
     shortcut : ['removebg'],
-    kingclass: "converter",
+    kingclass: "converter commands",
     kingpath: __filename,
     infocmd: "Remove image Background."
 },
@@ -70,7 +70,7 @@ async(Void, citel, text) => {
 Module_Exports({
             kingcmd: "url",
             shortcut : ['createurl',"tourl"],
-            kingclass: "converter",
+            kingclass: "converter commands",
             kingpath: __filename,
             infocmd: "image to url."
         },
@@ -88,7 +88,7 @@ Module_Exports({
 Module_Exports({
             kingcmd: "trt",
             shortcut :['translate'],
-            kingclass: "converter",
+            kingclass: "converter commands",
             kingpath: __filename,
             infocmd: "Translate\'s given text in desird language."
         },
@@ -108,7 +108,7 @@ Module_Exports({
 
 Module_Exports({
             kingcmd: "shell",
-            kingclass: "owner",
+            kingclass: "owner commands",
             kingpath: __filename,
             infocmd: "Runs command in Heroku(server) shell."
         },
@@ -128,7 +128,7 @@ Module_Exports({
 
 Module_Exports({
             kingcmd: "eval",
-            kingclass: "owner",
+            kingclass: "owner commands",
             kingpath: __filename,
             infocmd: "Runs js code on node server."
         },
@@ -146,7 +146,7 @@ Module_Exports({
 //---------------------------------------------------------------------------
 /*Module_Exports({
             kingcmd: "delnote",
-            kingclass: "owner",
+            kingclass: "owner commands",
             kingpath: __filename,
             infocmd: "Deletes note from db."
         },
@@ -164,7 +164,7 @@ Module_Exports({
 
 /*Module_Exports({
             kingcmd: "delallnotes",
-            kingclass: "owner",
+            kingclass: "owner commands",
             kingpath: __filename,
             infocmd: "Deletes all notes from db."
         },
@@ -183,7 +183,7 @@ if(name.WORKTYPE != 'private')
 {
 Module_Exports({
             kingcmd: "ban",
-            kingclass: "owner",
+            kingclass: "owner commands",
             kingpath: __filename,
             infocmd: "Bans user from using bot."
         },
@@ -212,7 +212,7 @@ Module_Exports({
      //---------------------------------------------------------------------------
 Module_Exports({
             kingcmd: "unban",
-            kingclass: "owner",
+            kingclass: "owner commands",
             kingpath: __filename,
             infocmd: "Unbans banned user (from using bot)."
         },
@@ -239,7 +239,7 @@ Module_Exports({
 /*
 Module_Exports({
             kingcmd: "addnote",
-            kingclass: "owner",
+            kingclass: "owner commands",
             infocmd: "Adds a note on db.",
             kingpath: __filename
         },
@@ -257,7 +257,7 @@ Module_Exports({
 Module_Exports({
         kingcmd: "notes",
         shortcut : ['note'],
-        kingclass: "owner",
+        kingclass: "owner commands",
         kingpath: __filename,
         infocmd: "Shows list of all notes."
     },
@@ -328,7 +328,7 @@ let txt =
     //---------------------------------------------------------------------------
 Module_Exports({
             kingcmd: "alive",
-            kingclass: "tools",
+            kingclass: "tool commands",
             kingpath: __filename,
             infocmd: "To check Bot is Online"
         },

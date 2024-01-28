@@ -5,7 +5,7 @@
  Function({
          kingcmd: "daily",
          infocmd: "daily gold.",
-         kingclass: "economy",
+         kingclass: "economy commands",
          kingpath: __filename,
          use: ""
      },
@@ -33,7 +33,7 @@
          kingcmd: "resetwallet",
          shortcut: ["rwallet"],
          infocmd: "reset wallet of quoted user.",
-         kingclass: "economy",
+         kingclass: "economy commands",
          kingpath: __filename,
          use: ""
      },
@@ -57,7 +57,7 @@
  Function({
     kingcmd: "capacity",
     infocmd: "update capacity.",
-    kingclass: "economy",
+    kingclass: "economy commands",
     kingpath: __filename,
     use: ""
 },
@@ -111,7 +111,7 @@ default:
      Function({
         kingcmd: "deposit",
         infocmd: "deposit gold.",
-        kingclass: "economy",
+        kingclass: "economy commands",
         kingpath: __filename,
         use: ""
     },
@@ -136,7 +136,7 @@ return await person.reply(`Sender: ${person.pushName}\nSuccessfully Deposited �
      Function({
         kingcmd: "lb",
         infocmd: "check leaderboard.",
-        kingclass: "economy",
+        kingclass: "economy commands",
         kingpath: __filename,
         use: ""
     },
@@ -163,7 +163,7 @@ str+= `*${i+1}*\n*╭─────────────★*\n┃ *ɴᴀᴍ�
 Function({
     kingcmd: "transfer",
     infocmd: "transfer gold.",
-    kingclass: "economy",
+    kingclass: "economy commands",
     kingpath: __filename,
     use: ""
 },
@@ -202,7 +202,7 @@ return await person.reply( `*Transaction successful of ${value[0]}*`)
      Function({
         kingcmd: "wallet",
         infocmd: "shows wallet.",
-        kingclass: "economy",
+        kingclass: "economy commands",
         kingpath: __filename,
         use: ""
     },
@@ -223,7 +223,7 @@ return await person.reply(`*${person.pushName}'s Bank Wallet:*\n\n_🪙${balance
      Function({
         kingcmd: "give",
         infocmd: "Add money in wallet.",
-        kingclass: "economy",
+        kingclass: "economy commands",
         kingpath: __filename,
         use: ""
     },
@@ -243,7 +243,7 @@ return await person.reply(`*${person.pushName}'s Bank Wallet:*\n\n_🪙${balance
      Function({
         kingcmd: "bank",
         infocmd: "shows bank amount.",
-        kingclass: "economy",
+        kingclass: "economy commands",
         kingpath: __filename,
         use: ""
     },
@@ -265,7 +265,7 @@ return await person.reply(`User: ${person.pushName}\n\n_${balance.bank}/${balanc
      Function({
         kingcmd: "rob",
         infocmd: "rob bank amount.",
-        kingclass: "economy",
+        kingclass: "economy commands",
         kingpath: __filename,
     },
     async(sigma, person, text,{ isCreator }) => {
@@ -321,7 +321,7 @@ default:
      Function({
         kingcmd: "withdraw",
         infocmd: "withdraw money from bank account.",
-        kingclass: "economy",
+        kingclass: "economy commands",
         kingpath: __filename,
         use: ""
     },
@@ -349,7 +349,7 @@ default:
      Function({
         kingcmd: "gamble",
         infocmd: "gamble money.",
-        kingclass: "economy",
+        kingclass: "economy commands",
         kingpath: __filename,
         use: ""
     },
@@ -424,7 +424,7 @@ return await person.reply( `*You won 🪙${twice}*`)
      Function({
         kingcmd: "slot2",
         infocmd: "withdraw money from bank account.",
-        kingclass: "economy",
+        kingclass: "economy commands",
         kingpath: __filename,
         use: ""
     },
@@ -539,7 +539,7 @@ if(value<=balance.wallet){
 Function({
     kingcmd: "slot",
     infocmd: "slot game.",
-    kingclass: "economy",
+    kingclass: "economy commands",
     kingpath: __filename,
     use: ""
 },

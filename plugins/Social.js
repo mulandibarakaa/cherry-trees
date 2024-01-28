@@ -7,7 +7,7 @@ const axios= require('axios');
 Module_Exports({
     kingcmd: "ydesc",
     infocmd: "Gives descriptive info of query from youtube..",
-    kingclass: "downloader",
+    kingclass: "downloader commands",
     filename: __filename,
     use: '<yt search text>',
 },

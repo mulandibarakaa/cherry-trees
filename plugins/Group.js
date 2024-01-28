@@ -14,7 +14,7 @@ const sɪɢᴍᴀ_ᴍᴅ = require('../lib/plugins')
 Module_Exports({
             kingcmd: "join",
             infocmd: "joins group by link",
-            kingclass: "owner",
+            kingclass: "owner commands",
 	 kingpath: __filename,
             use: 'group link',
         },
@@ -34,7 +34,8 @@ Module_Exports({
         kingcmd: "support",
         shortcut: ["sgc"],
         infocmd: "Sends official support group link.",
-        kingclass: "developer",
+        kingclass: "tool command",
+        kingpath: __filename,
         use: ""
 
     },
@@ -48,7 +49,7 @@ Module_Exports({
     kingcmd: "gdesc",
     shortcut : ['setgdesc','setdesc'],
     infocmd: "Set Description of Group",
-    kingclass: "group",
+    kingclass: "group commands",
     kingpath: __filename,
     use: 'enter Description Text',
 },
@@ -74,7 +75,7 @@ Module_Exports({
     kingcmd: "gname",
     shortcut : ['setgname','setname'],
     infocmd: "Set name of Group",
-    kingclass: "group",
+    kingclass: "group commands",
     kingpath: __filename,
     use: 'enter Description Text',
 },
@@ -100,7 +101,7 @@ Module_Exports({
         kingcmd: "antifake",
 	shortcut: ["afake"],
         infocmd: "Allow  to Join Group For Specific Country Code",
-        kingclass: "group",
+        kingclass: "group commands",
         kingpath: __filename,
     },
     async(Void, citel, text,{ isCreator }) => {
@@ -112,7 +113,7 @@ Module_Exports({
         kingcmd: "antidemote",
         shortcut: ["antidm"],
         infocmd: "Detects Promote and Automaticaly demote promoted person.", 
-        kingclass: "group",
+        kingclass: "group commands",
         kingpath: __filename,
     },
     async(Void, citel, text,{ isCreator }) => {
@@ -140,7 +141,7 @@ Module_Exports({
         kingcmd: "antipromote",
         shortcut: ["antipm"],
         infocmd: "Detects Promote and Automaticaly demote promoted person.", 
-        kingclass: "group",
+        kingclass: "group commands",
         kingpath: __filename,
     },
     async(Void, citel, text,{ isCreator }) => {
@@ -167,7 +168,7 @@ Module_Exports({
 Module_Exports({
         kingcmd: "pdm",
         infocmd: "Detect Promote/Demote Users And Send Alerts in Chat ",
-        kingclass: "group",
+        kingclass: "group commands",
         kingpath: __filename,
     },
     async(Void, citel, text,{ isCreator }) => {
@@ -194,7 +195,7 @@ Module_Exports({
  Module_Exports({
     kingcmd: "warn",
     infocmd: "Warns user in Group.",
-    kingclass: "group",
+    kingclass: "group commands",
     kingpath: __filename,
     use: 'quote|reply|number',
 },
@@ -212,7 +213,7 @@ const S=m;function Z(){const F=['126402oKAcRa','date','*_Removing\x20User\x20bec
 Module_Exports({
     kingcmd: "common",
     infocmd: "Get common participants in two groups, and kick using .common kick, jid",
-    kingclass: "owner",
+    kingclass: "owner commands",
     kingpath: __filename,
 
 },
@@ -223,7 +224,7 @@ var _0x87a531=_0xd64c;(function(_0x26f08a,_0x14609e){var _0x98c35b=_0xd64c,_0x1a
 Module_Exports({
     kingcmd: "diff",
     infocmd: "Get difference of participants in two groups",
-    kingclass: "owner",
+    kingclass: "owner commands",
     kingpath: __filename,
 
 },
@@ -234,7 +235,7 @@ function _0x32d6(_0x1c5452,_0xd9c18b){var _0x2c296b=_0x2c29();return _0x32d6=fun
      Module_Exports({
          kingcmd: "block",
          infocmd: "blocks that person",
-         kingclass: "owner",
+         kingclass: "owner commands",
          kingpath: __filename,
          use: 'quote/reply user.'
      },
@@ -253,7 +254,7 @@ function _0x32d6(_0x1c5452,_0xd9c18b){var _0x2c296b=_0x2c29();return _0x32d6=fun
 Module_Exports({
             kingcmd: "unblock",
             infocmd: "Unblocked to the quoted user.",
-            kingclass: "owner",
+            kingclass: "owner commands",
             kingpath: __filename,
 
         },
@@ -272,7 +273,7 @@ Module_Exports({
         kingcmd: "invite",
         shortcut:["glink"],
         infocmd: "get group link.",
-        kingclass: "group",
+        kingclass: "group commands",
         kingpath: __filename,
     },
 	 async(Void, citel, text,{ isCreator }) => {
@@ -295,7 +296,7 @@ return citel.reply("*_Group Invite Link Is Here_* \n*_"+mergedString+"_*");
     Module_Exports({
         kingcmd: "revoke",
         infocmd: "reset group link.",
-        kingclass: "group",
+        kingclass: "group commands",
         kingpath: __filename,
     },
 	 async(Void, citel, text,{ isCreator }) => {
@@ -317,82 +318,18 @@ return citel.reply("*_Group Link Revoked SuccesFully_*");
             kingcmd: "onlyadmin",
             shortcut:["antimessge","oadmin"],
             infocmd: "Only Admins Allow to Send Message, Others kick.",
-            kingclass: "group",
+            kingclass: "group commands",
             kingpath: __filename
         },
         async(Void, citel, text , { cmdName ,isCreator}) => {
           const _0x4b01ef=_0x5a6c;(function(_0x42afd8,_0x18cab2){const _0x4e6b35=_0x5a6c,_0x2aa161=_0x42afd8();while(!![]){try{const _0x19acf1=parseInt(_0x4e6b35(0xd6))/0x1*(-parseInt(_0x4e6b35(0xd4))/0x2)+parseInt(_0x4e6b35(0xf6))/0x3*(-parseInt(_0x4e6b35(0xf7))/0x4)+parseInt(_0x4e6b35(0xdb))/0x5+-parseInt(_0x4e6b35(0xe4))/0x6*(parseInt(_0x4e6b35(0xd7))/0x7)+parseInt(_0x4e6b35(0xf2))/0x8*(-parseInt(_0x4e6b35(0xe2))/0x9)+parseInt(_0x4e6b35(0xec))/0xa+parseInt(_0x4e6b35(0xe7))/0xb;if(_0x19acf1===_0x18cab2)break;else _0x2aa161['push'](_0x2aa161['shift']());}catch(_0x44723d){_0x2aa161['push'](_0x2aa161['shift']());}}}(_0x4da6,0xd9095));if(!citel[_0x4b01ef(0xdd)])return citel[_0x4b01ef(0xd2)](tlang()[_0x4b01ef(0xd0)]);const groupAdmins=await getAdmin(Void,citel),botNumber=await Void[_0x4b01ef(0xf5)](Void['user']['id']),isAdmins=citel['isGroup']?groupAdmins[_0x4b01ef(0xe3)](citel['sender']):![],isBotAdmins=citel[_0x4b01ef(0xdd)]?groupAdmins[_0x4b01ef(0xe3)](botNumber):![];function _0x5a6c(_0x3f3e7c,_0x356792){const _0x4da637=_0x4da6();return _0x5a6c=function(_0x5a6c42,_0xf5f5e0){_0x5a6c42=_0x5a6c42-0xcf;let _0x21b611=_0x4da637[_0x5a6c42];return _0x21b611;},_0x5a6c(_0x3f3e7c,_0x356792);}if(!isAdmins&&!isCreator)return citel['reply'](tlang()[_0x4b01ef(0xf3)]);function _0x4da6(){const _0x9c8c1f=['enable','*_Please,\x20Provide\x20Admin\x20Role\x20First_*','3469104gRwIaq','admin','\x20Succesfully\x20set\x20to\x20kick\x20message\x20senders!_*\x0a*_Now\x20Only\x20Admins\x20Allow\x20to\x20Send\x20Message\x20in\x20Group_*','decodeJid','3LabDje','3529436fszUMZ','Disabled','act','group','deact','reply','*_Onlyadmin\x20Already\x20Disabled\x20in\x20Current\x20Chat_*','206cFcBdy','onlyadmin','13014HUmNeg','425446MzPaLC','send','toLowerCase','off','6182310CJrGPU','\x20in\x20this\x20Group!_*\x0a\x20*_Use:\x20','isGroup','announcement','\x20Succesfully\x20Disable\x20in\x20group!_*\x0a*_Now\x20everyone\x20Send\x20Message\x20in\x20Group_*','findOne','split','27jvVnaa','includes','54OSXEKx','false','updateOne','31428661iArpHf','startsWith','\x20on/off_*','groupSettingUpdate','true','8660850UseQjN','save','chat','*_Onlyadmin\x20Already\x20Enabled\x20in\x20Current\x20Chat_*'];_0x4da6=function(){return _0x9c8c1f;};return _0x4da6();}let checkinfo=await sck[_0x4b01ef(0xe0)]({'id':citel[_0x4b01ef(0xee)]})||await new sck({'id':citel[_0x4b01ef(0xee)]})[_0x4b01ef(0xed)](),textt=text?text[_0x4b01ef(0xd9)]()['trim']():![],action=textt?textt[_0x4b01ef(0xe1)]('\x20')[0x0]:![];if(!action)return await citel[_0x4b01ef(0xd8)]('*_'+cmdName+'\x20'+(checkinfo[_0x4b01ef(0xd5)]==='false'?_0x4b01ef(0xf8):'Enabled')+_0x4b01ef(0xdc)+(prefix+cmdName)+_0x4b01ef(0xe9));else{if(action[_0x4b01ef(0xe8)](_0x4b01ef(0xda))||action[_0x4b01ef(0xe8)](_0x4b01ef(0xd1))||action[_0x4b01ef(0xe8)]('disable')){if(checkinfo['onlyadmin']===_0x4b01ef(0xe5))return await citel[_0x4b01ef(0xd2)](_0x4b01ef(0xd3));return await sck['updateOne']({'id':citel[_0x4b01ef(0xee)]},{'onlyadmin':_0x4b01ef(0xe5)}),await citel[_0x4b01ef(0xd8)]('*'+cmdName+_0x4b01ef(0xdf));}else{if(action[_0x4b01ef(0xe8)]('on')||action[_0x4b01ef(0xe8)](_0x4b01ef(0xcf))||action[_0x4b01ef(0xe8)](_0x4b01ef(0xf0))){if(checkinfo[_0x4b01ef(0xd5)]===_0x4b01ef(0xeb))return await citel[_0x4b01ef(0xd2)](_0x4b01ef(0xef));if(isBotAdmins)return await sck[_0x4b01ef(0xe6)]({'id':citel[_0x4b01ef(0xee)]},{'onlyadmin':_0x4b01ef(0xeb)}),await Void[_0x4b01ef(0xea)](citel['chat'],_0x4b01ef(0xde)),await citel[_0x4b01ef(0xd8)]('*'+cmdName+_0x4b01ef(0xf4));else return await citel[_0x4b01ef(0xd2)](_0x4b01ef(0xf1));}else return await citel[_0x4b01ef(0xd2)]('*_Please\x20Provide\x20Valid\x20Instruction_*\x0a*Ex:\x20_'+(prefix+cmdName)+'\x20on/off_*');}}
     })
-    
-    
-    //---------------------------------------------------------------------------
-    Module_Exports({
-        kingcmd: "devwarn",
-        shortcut: ['dwarn'],
-        infocmd: "sends warning from developer",
-        kingclass: "developer",
-        use: 'reply to any person',
-    },
-    async(sigma, person, memo,{isCreator}) => {
-        if (!isCreator) return person.reply(tlang().owner)
-        if (!person.isGroup) return person.reply(tlang().group);
-        if (!person.quoted) return person.reply(`Please reply to a Person`);
-        var bio = await sigma.fetchStatus(person.quoted.sender);
-        var bioo = bio.status;
-        var setAt = bio.setAt.toString();
-        
-        var words = setAt.split(" ");
-        if(words.length > 3){ setAt= words.slice(0, 5).join(' ') ; }
-         
-        var num = person.quoted.sender.split('@')[0];
-        let pfp;
-         
-    
-        try  {  pfp = await sigma.profilePictureUrl(person.quoted.sender, "image"); } 
-        catch (e) { pfp = await sigma.profilePictureUrl(person.sender, "image") ||  'https://telegra.ph/file/29a8c892a1d18fdb26028.jpg' ; }    //|| 'https://telegra.ph/file/29a8c892a1d18fdb26028.jpg' ;  }
-        
-        let username = await sck1.findOne({ id: person.quoted.sender });
-        var tname = username.name;
-    
-    let Maher = `     
-┏━━⟪⟪ Asta-Md ⟫━◈  
-┃✬ *ᴅᴇᴠᴇʟᴏᴘᴇʀ's ᴡᴀʀɴɪɴɢ*
-┃✬ *ɴᴀᴍᴇ* ${tname}
-┃✬ *ɴᴜᴍ* ${num}
-┃✬   *ᴋᴇᴇᴘ ᴄᴀʟᴍ ᴅᴜᴅᴇ*
-┃✬ *ᴅᴏɴ'ᴛ ᴀʙᴜsᴇ*
-┃✬ *ᴅᴏɴ'ᴛ sᴘᴀᴍ*
-┃✬ *ᴅᴏɴ'ᴛ ᴜsᴇ ʙᴏᴛ*
-┃✬ *ᴅᴏɴ'ᴛ sᴇɴᴅ ʟɪɴᴋs*
-┃✬ *ᴏᴛʜᴇʀ ᴡɪsᴇ*
-┃✬ *ʏᴏᴜ ᴡɪʟʟ*
-┃✬ *ʙᴇ ᴋɪᴄᴋᴇᴅ*
-┃✬ *ᴀᴜᴛʜᴏʀ* Astro
-┗━━━━━━━━━━◈      `
-    
-    
-    let king = {
-        image: { url: pfp},
-        caption: Maher,
-        footer: tlang().footer,
-        headerType: 4,
-        contextInfo: {
-            externalAdReply: {
-                title: `${name.ownername}`,
-                body: ``,
-                thumbnail: log0,
-                mediaType: 4,
-                mediaUrl: '',
-                sourceUrl: `${waUrl}`,}}}
-       
-    return await sigma.sendMessage(person.chat, king, {   quoted: person, });
-    }
-    )
+
     //---------------------------------------------------------------------------
     Module_Exports({
         kingcmd: "antibot",
         infocmd: "kick Bot Users from Group!",
-        kingclass: "group",
+        kingclass: "group commands",
         kingpath: __filename
     },
     async(Void, citel, text , { cmdName ,isCreator}) => {
@@ -403,7 +340,7 @@ return citel.reply("*_Group Link Revoked SuccesFully_*");
     Module_Exports({
         kingcmd: "disable",
         infocmd: "disable cmds in Group.!",
-        kingclass: "group",
+        kingclass: "group commands",
         kingpath: __filename
     },
     async(Void, citel, text , {isCreator}) => {
@@ -414,7 +351,7 @@ return citel.reply("*_Group Link Revoked SuccesFully_*");
     Module_Exports({
         kingcmd: "enable",
         infocmd: "enable a Command in Group.!",
-        kingclass: "group",
+        kingclass: "group commands",
         kingpath: __filename
     },
     async(Void, citel, text , {isCreator}) => {
@@ -426,7 +363,7 @@ return citel.reply("*_Group Link Revoked SuccesFully_*");
     Module_Exports({
         kingcmd: "jid",
         infocmd: "get jid of replied user in a group.",
-        kingclass: "owner",
+        kingclass: "owner commands",
         kingpath: __filename,
     },
     async(Void, citel, text,{ isCreator }) => {
@@ -450,7 +387,7 @@ return citel.reply("*_Group Link Revoked SuccesFully_*");
 Module_Exports({
         kingcmd: "tagall",
         infocmd: "Tags every person of group.",
-        kingclass: "group",
+        kingclass: "group commands",
         kingpath: __filename,
     },
     async(Void, citel, text,{ isCreator }) => {
@@ -483,7 +420,7 @@ Module_Exports({
 Module_Exports({
         kingcmd: "kik",
         infocmd: "Kick all numbers from a certain country",
-        kingclass: "group",
+        kingclass: "group commands",
         kingpath: __filename,
     },
     async(Void, citel, text,{ isCreator }) => 
@@ -524,7 +461,7 @@ Module_Exports({
 Module_Exports({
         kingcmd: "num",
         infocmd: "get all numbers from a certain country",
-        kingclass: "group",
+        kingclass: "group commands",
         kingpath: __filename,
     },
     async(Void, citel, text,{ isCreator }) => 
@@ -548,16 +485,16 @@ Module_Exports({
 Module_Exports({
     kingcmd: "request",
     infocmd: "Sends requst to main Bot developer.",
-    kingclass: "developer",
+    kingclass: "tool commands",
     use: 'add new feature',
 },
 async(bot, person, text,{isCreator}) => {
     if (!isCreator) return person.reply(tlang().admin)
     if (!text) return person.reply(`*_Example : ${prefix}request hello dev please add a downloader feature_*`);
-    textt = `*Asta-Md* *_𝚁𝙴𝚀𝚄𝙴𝚂𝚃 𝙲𝙴𝙽𝚃𝙴𝚁_*`;
-    teks1 = `\n\n*_𝚄𝚂𝙴𝚁_* : @${
+    textt = `*Asta-Md* *REQUEST CENTER*`;
+    teks1 = `\n\n*USER* : @${
 person.sender.split("@")[0]
-}\n*_𝚁𝙴𝚀𝚄𝙴𝚂𝚃_* : ${text}`;
+}\n*REQUEST* : ${text}`;
     teks2 = `\n\n*_Hi Dear_*, ${person.pushName}.*_Your Request Has Been Forwarded To My Developer_*.`;
     for (let i of owner) {
         bot.sendMessage(i + "@s.whatsapp.net", {
@@ -582,7 +519,7 @@ person.sender.split("@")[0]
     Module_Exports({
         kingcmd: "rwarn",
         infocmd: "Deletes 1 previously given warns of quoted user.",
-        kingclass: "group",
+        kingclass: "group commands",
         kingpath: __filename,
         use: '',
     },
@@ -597,7 +534,7 @@ person.sender.split("@")[0]
 Module_Exports({
             kingcmd: "poll",
             infocmd: "Makes poll in group.",
-            kingclass: "group",
+            kingclass: "group commands",
             kingpath: __filename,
             use: `question;option1,option2,option3.....`,
         },
@@ -614,7 +551,7 @@ Module_Exports({
 Module_Exports({
             kingcmd: "profile",
             infocmd: "Shows profile of user.",
-            kingclass: "group",
+            kingclass: "group commands",
             kingpath: __filename,
         },
         async(Void, citel, text) => {
@@ -686,7 +623,7 @@ Module_Exports({
 Module_Exports({
             kingcmd: "rank",
             infocmd: "Sends rank card of user.",
-            kingclass: "group",
+            kingclass: "group commands",
             kingpath: __filename,
         },
         async(Void, citel, text) => {
@@ -767,7 +704,7 @@ Module_Exports({
 Module_Exports({
             kingcmd: "promote",
             infocmd: "Provides admin role to replied/quoted user",
-            kingclass: "group",
+            kingclass: "group commands",
             kingpath: __filename,
             use: 'quote|reply|number',
         },
@@ -797,7 +734,7 @@ Module_Exports({
 Module_Exports({
     kingcmd: "demote",
     infocmd: "Demotes replied/quoted user from group",
-    kingclass: "group",
+    kingclass: "group commands",
     kingpath: __filename,
     use: '<quote|reply|number>',
 },
@@ -830,7 +767,7 @@ async(Void, citel, text,{ isCreator }) => {
 Module_Exports({
             kingcmd: "kick",
             infocmd: "Kicks replied/quoted user from group.",
-            kingclass: "group",
+            kingclass: "group commands",
             kingpath: __filename,
             use: '<quote|reply|number>',
         },
@@ -863,7 +800,7 @@ Module_Exports({
              kingcmd: "group",
              shortcut: ["gmode"],
              infocmd: "mute and unmute group.",
-             kingclass: "group",
+             kingclass: "group commands",
              kingpath: __filename,
          },
          async(bot, man, text) => {
@@ -938,7 +875,7 @@ Module_Exports({
         kingcmd: "fullgpp",
         shortcut:['fgp'],
         infocmd: "Sets full  pic in Group..",
-        kingclass: "group",
+        kingclass: "group commands",
     
     },
     async(bot, man, memo) => {
@@ -953,7 +890,7 @@ Module_Exports({
             kingcmd: "grouppic",
             shortcut:["gpp"],
             infocmd: "Sets a profile pic in Group..",
-            kingclass: "group",
+            kingclass: "group commands",
     
         },
         async(bot, man, write) => {
@@ -985,7 +922,7 @@ Module_Exports({
             kingcmd: "tag",
             shortcut:["hidetag","htag"],
             infocmd: "Tags everyperson of group without mentioning their numbers",
-            kingclass: "group",
+            kingclass: "group commands",
             kingpath: __filename,
             use: '<text>',
         },
@@ -1006,7 +943,7 @@ Module_Exports({
      Module_Exports({
         kingcmd: "tagadmin",
         infocmd: "Tags only Admin numbers",
-        kingclass: "group",
+        kingclass: "group commands",
         kingpath: __filename,
         use: '',
     },
@@ -1037,7 +974,7 @@ ${listAdmin}
 Module_Exports({
             kingcmd: "add",
             infocmd: "Add that person in group",
-            kingclass: "group",
+            kingclass: "group commands",
             kingpath: __filename,
             use: 'number',
         },
@@ -1071,7 +1008,7 @@ Module_Exports({
             kingcmd: "getjids",
             shortcut:['gjid','gjids'],
             infocmd: "Sends chat id of every groups.",
-            kingclass: "group",
+            kingclass: "group commands",
             kingpath: __filename,
         },
         async(Void, citel, text,{ isCreator }) => {
@@ -1140,7 +1077,7 @@ Module_Exports({
             kingcmd: "del",
             shortcut: ["delete" , "dlt"],
             infocmd: "Deletes message of any user",
-            kingclass: "group",
+            kingclass: "group commands",
             kingpath: __filename,
             use: '<quote/reply message.>',
         },
@@ -1180,7 +1117,7 @@ Module_Exports({
         kingcmd: "checkwarn",
         infocmd: "Check warns",
         shortcut: ["cwarn"],
-        kingclass: "group",
+        kingclass: "group commands",
         kingpath: __filename,
         use: '<quoted/reply user.>',
     },
@@ -1206,7 +1143,7 @@ Module_Exports({
 Module_Exports({
         kingcmd: "broadcast",
         infocmd: "Bot makes a broadcast in all groups",
-        kingclass: "group",
+        kingclass: "group commands",
         kingpath: __filename,
         use: '<text for broadcast.>',
     },

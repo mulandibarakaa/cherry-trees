@@ -12,7 +12,7 @@ const { Sticker, createSticker, StickerTypes } = require("wa-sticker-formatter")
     kingcmd: "welcome",
     shortcut:["setwelcome","swel"],
     infocmd: "sets welcome message in specific group.",
-    kingclass: "group",
+    kingclass: "group commands",
  kingpath: __filename
 },
 async(Void, citel, text,{ isCreator }) => {
@@ -51,7 +51,7 @@ Module_Exports({
     kingcmd: "goodbye",
     shortcut: ["setgoodbye","setbye"],
     infocmd: "sets goodbye message in specific group.",
-    kingclass: "group",
+    kingclass: "group commands",
  kingpath: __filename
 },
 async(Void, citel, text,{ isCreator }) => {
@@ -89,7 +89,7 @@ async(Void, citel, text,{ isCreator }) => {
  Module_Exports({
         kingcmd: "quoted",
         infocmd: "get reply Message from Replied Message",
-        kingclass: "user",
+        kingclass: "whatsapp commands",
         kingpath: __filename
     },
     async(Void, citel, text) => {
@@ -117,7 +117,7 @@ async(Void, citel, text,{ isCreator }) => {
         kingcmd: "blocklist",
         shortcut:["blist"],
         infocmd: "get list of all Blocked Numbers",
-        kingclass: "user",
+        kingclass: "whatsapp commands",
         kingpath: __filename,
         use: '',
     },
@@ -140,7 +140,7 @@ async(Void, citel, text,{ isCreator }) => {
  Module_Exports({
              kingcmd: "location",
              infocmd: "get location by cordinates",
-             kingclass: "user",
+             kingclass: "whatsapp commands",
              kingpath: __filename
          },
          async(Void, citel, text) => {
@@ -167,7 +167,7 @@ await citel.reply (txt);
  Module_Exports({
              kingcmd: "getpp",
              infocmd: "Get Profile Pic For Given User",
-             kingclass: "user",
+             kingclass: "whatsapp commands",
              kingpath: __filename
          },
          async(Void, citel, text) => {
@@ -198,7 +198,7 @@ if (!citel.quoted) return citel.reply (`*_Please Reply To A User To Get Profile 
              kingcmd: "readmore",
              shortcut:["rmore",'readmor'],
              infocmd: "Adds *readmore* in given text.",
-             kingclass: "misc",
+             kingclass: "misc commands",
              kingpath: __filename
          },
          async(Void, citel, text) => {
@@ -211,7 +211,7 @@ if (!citel.quoted) return citel.reply (`*_Please Reply To A User To Get Profile 
   Module_Exports({
     kingcmd: "whois",
     infocmd: "Get info about replied person",
-    kingclass: "user",
+    kingclass: "whatsapp commands",
     use: 'reply to any person',
 
 },
@@ -265,7 +265,7 @@ return await sigma.sendMessage(person.chat, king,{quoted:person});
  Module_Exports({
              kingcmd: "vcard",
              infocmd: "Create Contact by given name.",
-             kingclass: "user",
+             kingclass: "whatsapp commands",
              kingpath: __filename
          },
          async(Void, citel, text) => {
@@ -295,7 +295,7 @@ const vcard = 'BEGIN:VCARD\n' +
  Module_Exports({
              kingcmd: "take",
              infocmd: "Makes sticker of replied image/video.",
-             kingclass: "sticker",
+             kingclass: "sticker commands",
              kingpath: __filename
          },
          async(Void, citel, text) => {
@@ -331,7 +331,7 @@ const vcard = 'BEGIN:VCARD\n' +
              kingcmd: "uptime",
              shortcut: ["runtime","um"],
              infocmd: "Tells runtime/uptime of bot.",
-             kingclass: "tools",
+             kingclass: "tool commands",
              kingpath: __filename
          },
          async(Void, citel, text) => {
@@ -343,7 +343,7 @@ const vcard = 'BEGIN:VCARD\n' +
  Module_Exports({
              kingcmd: "wa",
              infocmd: "Makes wa me of quoted or mentioned user.",
-             kingclass: "user",
+             kingclass: "whatsapp commands",
              kingpath: __filename
          },
          async(Void, citel, text) => {
@@ -357,7 +357,7 @@ const vcard = 'BEGIN:VCARD\n' +
  Module_Exports({
              kingcmd: "mee",
              infocmd: "Makes wa me for user.",
-             kingclass: "user",
+             kingclass: "whatsapp commands",
              kingpath: __filename
          },
          async(Void, citel, text) => {
@@ -366,7 +366,7 @@ const vcard = 'BEGIN:VCARD\n' +
  Module_Exports({
              kingcmd: "pick",
              infocmd: "Pick random user from Group",
-             kingclass: "group",
+             kingclass: "group commands",
              kingpath: __filename
          },
          async(Void, citel, match) => {
@@ -389,7 +389,7 @@ const vcard = 'BEGIN:VCARD\n' +
  Module_Exports({
              kingcmd: "npm",
              infocmd: "download mp4 from url.",
-             kingclass: "search",
+             kingclass: "search commands",
              use: 'fb Downloader',
              kingpath: __filename
          },
@@ -406,7 +406,7 @@ const vcard = 'BEGIN:VCARD\n' +
         kingcmd: "fliptext",
         shortcut: ["ftext"],
         infocmd: "Flips given text.",
-        kingclass: "misc",
+        kingclass: "misc commands",
         use: 'Astro',
         kingpath: __filename,
     },
@@ -423,7 +423,7 @@ const vcard = 'BEGIN:VCARD\n' +
   
              shortcut:['mp4down','mp4fromurl'],
              infocmd: "download mp4 from url.",
-             kingclass: "downloader",
+             kingclass: "downloader commands",
              use: 'url',
              kingpath: __filename
          },
@@ -453,7 +453,7 @@ const vcard = 'BEGIN:VCARD\n' +
      Module_Exports({
         kingcmd: "events",
         infocmd: "activates and deactivates events.\nuse buttons to toggle.",
-        kingclass: "group",
+        kingclass: "group commands",
         kingpath: __filename
     },
     async(bot, person, write,{isCreator}) => {
@@ -477,7 +477,7 @@ const vcard = 'BEGIN:VCARD\n' +
  Module_Exports({
              kingcmd: "emix",
              infocmd: "Mixes two emojies.",
-             kingclass: "sticker",
+             kingclass: "sticker commands",
              use: '<query>',
              kingpath: __filename
          },
@@ -516,7 +516,7 @@ const buffer = await sticker.toBuffer();
              kingcmd: "sigmabot",
              shortcut : ["chatbot","sbot","sigmachatbot"],
              infocmd: "activates and deactivates chatbot.\nuse buttons to toggle.",
-             kingclass: "misc",
+             kingclass: "misc commands",
              kingpath: __filename
          },
          async(Void, citel, text,{ isCreator }) => {
@@ -553,7 +553,7 @@ const buffer = await sticker.toBuffer();
  Module_Exports({
              kingcmd: "ebinary",
              infocmd: "encode binary",
-             kingclass: "misc",
+             kingclass: "misc commands",
              use: 'hi',
              kingpath: __filename
          },
@@ -573,7 +573,7 @@ const buffer = await sticker.toBuffer();
  Module_Exports({
              kingcmd: "dbinary",
              infocmd: "decode binary",
-             kingclass: "misc",
+             kingclass: "misc commands",
              use: 'hi',
              kingpath: __filename
          },
@@ -596,7 +596,7 @@ if(name.WORKTYPE != 'private')
 Module_Exports({
   kingcmd: "bot",
   infocmd: "activates and deactivates bot.\nuse buttons to toggle.",
-  kingclass: "misc",
+  kingclass: "misc commands",
   kingpath: __filename
 },
 async(Void, citel, text,{isCreator}) => {
@@ -659,7 +659,7 @@ async(Void, citel, text,{isCreator}) => {
  Module_Exports({
              kingcmd: "antispam",
              infocmd: "Kick Spamers From Group.\nuse buttons to toggle.",
-             kingclass: "group",
+             kingclass: "group commands",
              kingpath: __filename
          },
          async(Void, citel, text , {isCreator}) => {
@@ -694,7 +694,7 @@ else return citel.reply(`Antispam : kick Users Who Spamming in Groupn\n\nAntispa
      Module_Exports({
         kingcmd: "antilink",
         infocmd: "activates and deactivates antilink.\nuse buttons to toggle.",
-        kingclass: "group",
+        kingclass: "group commands",
         kingpath: __filename
     },
     async(Void, citel, text , {isCreator}) => {

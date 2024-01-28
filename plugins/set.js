@@ -19,7 +19,7 @@ const sɪɢᴍᴀ_ᴍᴅ = require('../lib/plugins')
       sɪɢᴍᴀ_ᴍᴅ.Module_Exports({
         kingcmd: "setcmd",
         infocmd: "To check ping",
-        kingclass: "general",
+        kingclass: "general commands",
         kingpath: __filename,
     },
     async(Void, citel,text, { isCreator } ) => {
@@ -31,7 +31,7 @@ const _0x259a3b=_0x3d7a;(function(_0x22b503,_0x545323){const _0xa308d6=_0x3d7a,_
 sɪɢᴍᴀ_ᴍᴅ.Module_Exports({
         kingcmd: "delcmd",
         infocmd: "To check ping",
-        kingclass: "general",
+        kingclass: "general commands",
         kingpath: __filename,
     },
     async(Void, citel,text, { isCreator } ) => {

@@ -12,7 +12,7 @@
     kingcmd: "dice",
     infocmd: "Play TicTacToe",
     kingpth: __filename,
-    kingclass: "game",
+    kingclass: "pastime commands",
   },
   async (Void,citel,text) => {
     const randomNumber = Math.floor(Math.random() * 6);
@@ -28,7 +28,7 @@ Module_Exports(
     kingcmd: "delttt",
     infocmd: "deletes TicTacToe running session.",
     kingpth: __filename,
-    kingclass: "game",
+    kingclass: "pastime commands",
   },
   async (Void,citel,text,{isCreator}) => {
         if (!citel.isGroup) return citel.reply(tlang().group);
@@ -57,7 +57,7 @@ Module_Exports(
     kingcmd: "ttt",
     infocmd: "Play TicTacToe",
     kingpth: __filename,
-    kingclass: "game",
+    kingclass: "pastime commands",
   },
   async (Void,citel,text) => {
     if (!citel.isGroup) return citel.reply(tlang().group);

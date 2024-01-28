@@ -51,7 +51,7 @@ Module_Exports({
 Module_Exports({
     kingcmd: "apk",
     infocmd: "Downloads apks.",
-    kingclass: "downloader",
+    kingclass: "downloader commands",
     use: "Whatsapp"
   }, async (sigma, person, text) => {
     if (!text) {
@@ -282,7 +282,7 @@ async(sigma, person, memo) => {
     Module_Exports({
         kingcmd: "song",
         infocmd: "Downloads audio from youtube.",
-        kingclass: "downloader",
+        kingclass: "downloader commands",
         kingpath: __filename,
         use: 'Moon Men',
     },
@@ -491,7 +491,7 @@ let result4 = ` *Mᴇᴅɪᴀғɪʀᴇ Dᴏᴡɴʟᴏᴀᴅᴇʀ*
     Module_Exports({
         kingcmd: "audio",
         infocmd: "Downloads audio from youtube.",
-        kingclass: "downloader",
+        kingclass: "downloader commands",
         kingpath: __filename,
         use: 'Moon Men',
     },

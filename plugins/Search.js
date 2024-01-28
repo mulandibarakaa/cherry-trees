@@ -11,7 +11,7 @@ const fetch = require('node-fetch')
    let yts = require("secktor-pack");
    Module_Exports({
            kingcmd: "find",
-           kingclass: "search",
+           kingclass: "search commands",
            infocmd: "Finds info about song",
            kingpath: __filename,
        },
@@ -55,7 +55,7 @@ const fetch = require('node-fetch')
 Module_Exports({
             kingcmd: 'ss',
             shortcut :['webss' , 'fullss'],
-            kingclass: "search",
+            kingclass: "search commands",
             infocmd: "Searches Image on Google",
             use: '',
             kingpath: __filename,
@@ -78,7 +78,7 @@ catch (err) { return citel.reply("```Error While Fetching Snapshot```")}
     //---------------------------------------------------------------------------
 Module_Exports({
             kingcmd: "imdb",
-            kingclass: "search",
+            kingclass: "search commands",
             infocmd: "Sends image of asked Movie/Series.",
             use: 'kingsman',
             kingpath: __filename,
@@ -121,7 +121,7 @@ Module_Exports({
     //---------------------------------------------------------------------------
     Module_Exports({
         kingcmd: "weather",
-        kingclass: "search",
+        kingclass: "search commands",
         infocmd: "Sends weather info about asked place.",
         use: 'Lahore',
     },
@@ -132,7 +132,7 @@ const _0x51287e=_0x8f43;(function(_0x208e10,_0x52e448){const _0xb617f6=_0x8f43,_
     //---------------------------------------------------------------------------
 Module_Exports({
             kingcmd: "horo",
-            kingclass: "search",
+            kingclass: "search commands",
             infocmd: "Gives horoscope info of user.",
             use: 'sign\n:Example: horo libra',
             kingpath: __filename,
@@ -170,7 +170,7 @@ Module_Exports({
 Module_Exports({
             kingcmd: "cricket",
             shortcut :['cric'],
-            kingclass: "search",
+            kingclass: "search commands",
             infocmd: "Sends info of about cricket",
             use: '',
             kingpath: __filename,
@@ -187,7 +187,7 @@ const _0x485f13=_0xc8fc;(function(_0xea9292,_0x3f139b){const _0x213a89=_0xc8fc,_
 Module_Exports({
             kingcmd: "google",
             shortcut :['gsearch'],
-            kingclass: "search",
+            kingclass: "search commands",
             infocmd: "Sends info of given query from Google Search.",
             use: 'who is king',
             kingpath: __filename,
@@ -211,7 +211,7 @@ Module_Exports({
 Module_Exports({
             kingcmd: "image",
             shortcut: ["img"],
-            kingclass: "search",
+            kingclass: "search commands",
             infocmd: "Searches Image on Google",
             use: 'Quran pics',
             kingpath: __filename,
@@ -297,7 +297,7 @@ else return citel.reply("*Google Images Not Working, Try it Later*");
 Module_Exports({
             kingcmd: "couplepp",
             shortcut:["cpp"],
-            kingclass: "search",
+            kingclass: "search commands",
             infocmd: "Sends two couples pics.",
             kingpath: __filename,
         },
@@ -311,7 +311,7 @@ Module_Exports({
     //---------------------------------------------------------------------------
 Module_Exports({
         kingcmd: "iswa",
-        kingclass: "search",
+        kingclass: "search commands",
         infocmd: "Searches in given rage about given number.",
         use: '9112345678xx',
         kingpath: __filename,
@@ -364,7 +364,7 @@ Module_Exports({
 
 Module_Exports({
         kingcmd: "nowa",
-        kingclass: "search",
+        kingclass: "search commands",
         infocmd: "Searches in given rage about given number.",
         use: '9112345678xx',
         kingpath: __filename,
