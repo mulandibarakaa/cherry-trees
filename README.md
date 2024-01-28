@@ -3,7 +3,7 @@
 
 <p align="center">
   <a href="https://github.com/Astropeda">
-    <img alt="Asta docs" height="300" src="https://leadier-umbrellas.000webhostapp.com/asta-anime3.jpg">
+    <img alt="Asta docs" src="https://leadier-umbrellas.000webhostapp.com/asta-anime3.jpg">
   </a>
 </p>
     
