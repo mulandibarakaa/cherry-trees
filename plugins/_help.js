@@ -117,6 +117,10 @@
       }
       _0x372184 += " *ᴀsᴛᴀ-ᴍᴅ ᴡʜᴀᴛsᴀᴘᴘ ʙᴏᴛ* ";
       return await _0x3c2b7e.sendMessage(_0x4be39a.chat, {
+        contextInfo: {
+          forwardingScore: 999,
+          isForwarded: true, 
+        },
         image: {
           url: await botpic()
         },
