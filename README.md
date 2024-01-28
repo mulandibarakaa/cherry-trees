@@ -2,9 +2,7 @@
 <p align="center"> Introducing Asta_Md, It is designed to bring a whole new level of excitement to your boring WhatsApp use. </p>
 
 <p align="center">
-  <a href="https://github.com/Astropeda">
-    <img alt="Asta docs" src="https://leadier-umbrellas.000webhostapp.com/asta-anime3.jpg">
-  </a>
+  <a herf="https://leadier-umbrellas.000webhostapp.com/asta-anime3.jpg"></a>
 </p>
     
    
