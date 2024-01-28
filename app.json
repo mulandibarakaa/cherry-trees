@@ -1,7 +1,7 @@
 {
   "name": "Asta-Md WHATSAPP BOT BY Astro",
   "description": "A Whatsapp Bot",
-  "logo": "",
+  "logo": "https://leadier-umbrellas.000webhostapp.com/asta2.jpg",
   "keywords": ["nodejs", "bot", "whatsapp bot"],
   "success_url": "/",
   "stack": "container",
