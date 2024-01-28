@@ -77,7 +77,7 @@
   },
   "MONGODB_URI": {
     "description": "Secret String for Mongodb Connection",
-     "value": "",
+     "value": "mongodb+srv://astromedia0010:beka10beka10@cluster0.pxc8ulo.mongodb.net/",
      "required": true
   },
     "WORKTYPE": {
