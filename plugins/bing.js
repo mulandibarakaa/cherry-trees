@@ -1,5 +1,5 @@
 const { Module_Exports, bing } = require('../lib/')
-const config = require('../config')
+const config = require('../Setting')
 Module_Exports(
   {
     kingcmd: 'bing',

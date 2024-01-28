@@ -50,6 +50,7 @@ module.exports = {
   VERSION: process.env.VERSION || 'V.4.5.0',
   LANG: process.env.THEME|| 'Asta_Md',
   menu : process.env.MENU || '',
+  BING_COOKIE: (process.env.BING_COOKIE || '').trim(),
   WORKTYPE: process.env.WORKTYPE || 'private'
 };
 
