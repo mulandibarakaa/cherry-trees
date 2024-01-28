@@ -503,8 +503,8 @@ const buffer = await sticker.toBuffer();
  
 
  Module_Exports({
-             kingcmd: "sigmabot",
-             shortcut : ["chatbot","sbot","sigmachatbot"],
+             kingcmd: "bot",
+             shortcut : ["chatbot","abot","astrochatbot"],
              infocmd: "activates and deactivates chatbot.\nuse buttons to toggle.",
              kingclass: "misc commands",
              kingpath: __filename
@@ -517,22 +517,22 @@ const buffer = await sticker.toBuffer();
              {
                  case "on":
                      {
-                         if (chatbott.worktype == "true") return citel.reply("*_SIGMA Chatbot is Already Enabled_*")
+                         if (chatbott.worktype == "true") return citel.reply("*_ASTRO Chatbot is Already Enabled_*")
                          await chatbot.updateOne({ id: 'chatbot' }, { worktype: "true" })
-                         return await citel.reply('*_SIGMA Chatbot Activated successfully._*')   
+                         return await citel.reply('*_ASTRO Chatbot Activated successfully._*')   
                      }
                      break
                  case "off":
                      {
-                                if (chatbott.worktype == "false") return citel.reply("*_SIGMA ChatBot is Already Disabled._*")
+                                if (chatbott.worktype == "false") return citel.reply("*_ASTRO Chatbot is Already Disabled._*")
                                 await chatbot.updateOne({ id: 'chatbot' }, { worktype: "false" })
-                                return await citel.reply('*_SIGMA Chatbot Deactivated Successfully._*')
+                                return await citel.reply('*_ASTRO Chatbot Deactivated Successfully._*')
                      }
                      break
                  default:
                      {
-                        if (chatbott.worktype == "false") return await citel.reply(`*_SIGMA Chatbot Status: Disabled_* \n*_To Enable Type: ${prefix}sbot on_*`)
-                        else return await citel.reply(`*SIGMA Chatbot Status: Enabled* \n*_To Disable Type : ${prefix}sbot off_*`)
+                        if (chatbott.worktype == "false") return await citel.reply(`*_ASTRO Chatbot Status: Disabled_* \n*_To Enable Type: ${prefix}sbot on_*`)
+                        else return await citel.reply(`*ASTRO Chatbot Status: Enabled* \n*_To Disable Type : ${prefix}sbot off_*`)
                         
                      }
              }
