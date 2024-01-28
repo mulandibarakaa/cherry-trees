@@ -119,13 +119,7 @@
       return await _0x3c2b7e.sendMessage(_0x4be39a.chat, {
         contextInfo: {
           forwardingScore: 999,
-          isForwarded: true, 
-            externalAdReply: {
-              title: "asta ᴹᴰ",
-              thumbnailUrl: "",
-              thumbnail: log0,
-              mediaType: 4,
-          }
+          isForwarded: true,
         },
         image: {
           url: await botpic()
