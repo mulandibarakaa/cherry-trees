@@ -53,8 +53,4 @@
 <p align="center">Need help? please create an <a href="https://github.com/Astropeda/Asta-Md/issues">issue</a></p>
 
 
- 
-
-   
- 
-[THUMB_IMAGE]=https://leadier-umbrellas.000webhostapp.com/asta-anime3.jpg)***
+ <img src="https://leadier-umbrellas.000webhostapp.com/asta-anime3.jpg"></img>  
