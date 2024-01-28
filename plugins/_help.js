@@ -120,6 +120,10 @@
         contextInfo: {
           forwardingScore: 999,
           isForwarded: true, 
+          externalAdReply: true,
+        },
+        image: {
+          url: await botpic()
         },
         caption: _0x33ce6e ? _0x33ce6e : _0x372184
       });
