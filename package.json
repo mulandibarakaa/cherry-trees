@@ -14,7 +14,7 @@
                     "@adiwajshing/keyed-db": "^0.2.4",
                     "@bochilteam/scraper": "latest",
                     "@hapi/boom": "^9.1.4",
-                    "@whiskeysockets/baileys": "latest",
+                    "@sampandey001/baileys": "latest",
                     "@shineiichijo/marika": "^2.0.3",
                     "acrcloud": "^1.4.0",
                     "anime-character-random": "latest",
