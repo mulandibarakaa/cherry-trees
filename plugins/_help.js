@@ -97,7 +97,7 @@
         timeZone: global.timezone
       }).split(",");
       let _0x979192 = await sck1.countDocuments();
-      let _0x372184 = "┌───═[ *" + mztit + "* ]═────┐      \n⬡│▸ Owner " + name.ownername + "\n⬡│▸ Prefix 『 *" + prefix + "* 』\n⬡│▸ Mode " + name.WORKTYPE + "\n⬡│▸ Current-Time" + _0x393cfa + "\n⬡│▸ Date " + _0x20e8d6 + "\n⬡│▸ Ram-Usage " + formatp(os.totalmem() - os.freemem()) + "/" + formatp(os.totalmem()) + "\n⬡│▸ Running-Since" + runtime(process.uptime()) + "\n⬡│▸ *ᴘʟᴜɢɪɴs* " + _0x3442f9.length + "\n⬡│▸ Responce-Rate " + latensie.toFixed(4) + " ᴍs\n⬡│▸ DB 350\n⬡│▸ ᴄʀᴇᴀᴛᴇᴅ-ʙʏ ᴀꜱᴛʀᴏᴘᴇᴅᴀ\n──────···\n─────────···\n    \n";
+      let _0x372184 = "┌───═[ *" + mztit + "* ]═────┐      \n⬡│▸ Owner " + name.ownername + "\n⬡│▸ Prefix 『 *" + prefix + "* 』\n⬡│▸ Mode " + name.WORKTYPE + "\n⬡│▸ Current-Time" + _0x393cfa + "\n⬡│▸ Date " + _0x20e8d6 + "\n⬡│▸ Ram-Usage " + formatp(os.totalmem() - os.freemem()) + "/" + formatp(os.totalmem()) + "\n⬡│▸ Running-Since" + runtime(process.uptime()) + "\n⬡│▸ Available Commands" + _0x3442f9.length + "\n⬡│▸ Responce-Rate " + latensie.toFixed(4) + " ᴍs\n⬡│▸ DB 350\n⬡│▸ ᴄʀᴇᴀᴛᴇᴅ-ʙʏ ᴀꜱᴛʀᴏᴘᴇᴅᴀ\n──────···\n─────────···\n    \n";
       let _0x33ce6e = false;
       for (const _0x181790 in _0x4357a0) {
         _0x372184 += "*〈* *" + tiny(_0x181790) + "* *〉*\n";
