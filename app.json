@@ -8,7 +8,7 @@
 "env": {
   "OWNER_NAME": {
   "description": "Bot Owner",
-      "value": "Astro"
+      "value": "ᴀsᴛʀᴏ"
   },
  "HEROKU_API_KEY": {
     "description": "Your Heroku Api Key",
@@ -28,11 +28,12 @@
            "value": "2348039607375"
       },
        "SESSION_ID": {
-        "description": "SESSION_ID."
+        "description": "SESSION_ID",
+        "value": "Asta-Md;;;"
       },
       "THUMB_IMAGE": {
         "description": "Image for bot.",
-         "value": ""
+         "value": "https://leadier-umbrellas.000webhostapp.com/asta2.jpg"
         },
    "ANTILINK_VALUES": {
     "description": "Put words for antilink",
@@ -52,7 +53,7 @@
       "READ_MESSAGE": {
     "description": "Fill the value false if you not want bot to read all messages.",
      "required" :false,
-     "value": "false"
+     "value": "true"
     },
    "DISABLE_PM": {
     "description": "Disable bot in pm, Take it false if you wanna run bot in your pm",
@@ -61,7 +62,7 @@
     },
 "ALWAYS_ONLINE": {
     "description": "Take it 'true' if you  wanna show Always Onlline on whatsapp",
-      "value": "false",
+      "value": "true",
      "required" :false
     },
     "OPENAI_API_KEY": {
@@ -105,12 +106,12 @@
 },
 "MZTIT": {
   "description": "Add Your Title",
-   "value": "Asta-Md"
+   "value": "ᴀsᴛᴀ-ᴍᴅ"
     
 },
 "GNAME": {
   "description": "Add Your Group Name Here.You Can See in Most Commands",
-   "value": "Asta-Md-sᴜᴘᴘᴏʀᴛ",
+   "value": "ᴀsᴛᴀ-ᴍᴅ-sᴜᴘᴘᴏʀᴛ",
     "required": false
 },
 "WAURL": {
@@ -120,7 +121,7 @@
 },
 "BOT_NAME": {
   "description": "Add Your Own Bot Name",
-   "value": "Asta-Md"
+   "value": "ᴀsᴛᴀ-ᴍᴅ"
     
 },
 "REMOVE_BG_KEY": {
