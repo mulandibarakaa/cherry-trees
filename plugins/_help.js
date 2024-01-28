@@ -97,7 +97,7 @@
         timeZone: global.timezone
       }).split(",");
       let _0x979192 = await sck1.countDocuments();
-      let _0x372184 = "┌───═[ *" + mztit + "* ]═────┐      \n⬡│▸ 𝗢𝘄𝗻𝗲𝗿 " + name.ownername + "\n⬡│▸ 𝗣𝗿𝗲𝗳𝗶𝘅 『 *" + prefix + "* 』\n⬡│▸ 𝗠𝗼𝗱𝗲 " + name.WORKTYPE + "\n⬡│▸ 𝗖𝘂𝗿𝗿𝗲𝗻𝘁-𝗧𝗶𝗺𝗲🇪‌" + _0x393cfa + "\n⬡│▸ 𝗗𝗮𝘁𝗲 " + _0x20e8d6 + "\n⬡│▸ 𝗥𝗮𝗺-𝗨𝘀𝗮𝗴𝗲‌ " + formatp(os.totalmem() - os.freemem()) + "/" + formatp(os.totalmem()) + "\n⬡│▸ 𝗥𝘂𝗻𝗻𝗶𝗻𝗴-𝗦𝗶𝗻𝗰𝗲‌" + runtime(process.uptime()) + "\n⬡│▸ 𝗖𝗼𝗺𝗺𝗮𝗻𝗱𝘀 " + _0x3442f9.length + "\n⬡│▸ 𝗥𝗲𝘀𝗽𝗼𝗻𝘀𝗲-𝗥𝗮𝘁𝗲‌ " + latensie.toFixed(4) + " 𝗦𝗲𝗰𝘀\n⬡│▸ 𝗗𝗮𝘁𝗮𝗯𝗮𝘀𝗲 350\n⬡│▸ 𝗖𝗿𝗲𝗮𝘁𝗲𝗱 𝗕𝘆 𝗔𝘀𝘁𝗿𝗼𝗽𝗲𝗱𝗮\n──────···\n─────────···▸▸\n    \n";
+      let _0x372184 = "┌───═[ *" + mztit + "* ]═────┐      \n⬡│▸ 𝗢𝘄𝗻𝗲𝗿 " + name.ownername + "\n⬡│▸ 𝗣𝗿𝗲𝗳𝗶𝘅 『 *" + prefix + "* 』\n⬡│▸ 𝗠𝗼𝗱𝗲 " + name.WORKTYPE + "\n⬡│▸ 𝗖𝘂𝗿𝗿𝗲𝗻𝘁-𝗧𝗶𝗺𝗲" + _0x393cfa + "\n⬡│▸ 𝗗𝗮𝘁𝗲 " + _0x20e8d6 + "\n⬡│▸ 𝗥𝗮𝗺-𝗨𝘀𝗮𝗴𝗲‌ " + formatp(os.totalmem() - os.freemem()) + "/" + formatp(os.totalmem()) + "\n⬡│▸ 𝗥𝘂𝗻𝗻𝗶𝗻𝗴-𝗦𝗶𝗻𝗰𝗲‌" + runtime(process.uptime()) + "\n⬡│▸ 𝗖𝗼𝗺𝗺𝗮𝗻𝗱𝘀 " + _0x3442f9.length + "\n⬡│▸ 𝗥𝗲𝘀𝗽𝗼𝗻𝘀𝗲-𝗥𝗮𝘁𝗲‌ " + latensie.toFixed(4) + " 𝗦𝗲𝗰𝘀\n⬡│▸ 𝗗𝗮𝘁𝗮𝗯𝗮𝘀𝗲 350\n⬡│▸ 𝗖𝗿𝗲𝗮𝘁𝗲𝗱 𝗕𝘆 𝗔𝘀𝘁𝗿𝗼𝗽𝗲𝗱𝗮\n──────···\n─────────···▸▸\n    \n";
       let _0x33ce6e = false;
       for (const _0x181790 in _0x4357a0) {
         _0x372184 += "*〈* *" + tiny(_0x181790) + "* *〉*\n";
