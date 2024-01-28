@@ -122,12 +122,9 @@
           isForwarded: true, 
             externalAdReply: {
               title: "asta ᴹᴰ",
-              body: "ᴛᴀᴘ ʜᴇʀᴇ ꜰᴏʀ ʀᴇᴘᴏ",
               thumbnailUrl: "",
               thumbnail: log0,
               mediaType: 4,
-              mediaUrl: "",
-              sourceUrl: srepo
           }
         },
         image: {
