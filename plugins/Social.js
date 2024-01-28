@@ -22,7 +22,7 @@ async(Void, citel, text) => {
   i.type
 }\n👾Views : ${i.views}\n⌛Duration : ${
   i.timestamp
-}\n⬆️Upload At : ${i.ago}\n👑Author : ${i.author.name}\n🎵Url : ${
+}\n⬆️Upload At : ${i.ago}\n😊Author : ${i.author.name}\n🎵Url : ${
   i.url
 }\n\n──────────────\n\n`;
     }
