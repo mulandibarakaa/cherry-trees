@@ -124,8 +124,6 @@
         image: {
           url: await botpic()
         },
-        headerType: 4,
-        footer: tlang().footer,
         caption: _0x33ce6e ? _0x33ce6e : _0x372184
       });
     } catch {
