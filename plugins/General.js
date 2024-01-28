@@ -93,14 +93,41 @@ Module_Exports({
   shortcut: ["git", "sc", "repo"],
   infocmd: "Sends info about repo.",
   kingclass: "tool command",
-  use:""
-},
-async(bot, citel) => {
-const _0x17a2f2=_0x21e6;(function(_0x9ca8c8,_0x29263d){const _0x289e2e=_0x21e6,_0x31e213=_0x9ca8c8();while(!![]){try{const _0x36bfa1=parseInt(_0x289e2e(0x20f))/(-0x20cf+-0xd69*0x1+0x2e39)*(-parseInt(_0x289e2e(0x1f8))/(0x188f*0x1+-0x1a6c+0x1*0x1df))+-parseInt(_0x289e2e(0x216))/(0x14e2+-0x11a9+-0x112*0x3)*(parseInt(_0x289e2e(0x1fa))/(-0x16dd+0x17d*0x3+-0x126a*-0x1))+parseInt(_0x289e2e(0x203))/(-0x1475+0x60c+0xe6e)+parseInt(_0x289e2e(0x214))/(-0xb0*0x8+-0x6e3*0x1+-0x423*-0x3)*(-parseInt(_0x289e2e(0x1ed))/(-0x13*-0x10f+-0x3*0x73b+0x19b*0x1))+-parseInt(_0x289e2e(0x20e))/(-0x805+-0x1*0x1e01+-0x2*-0x1307)+parseInt(_0x289e2e(0x1f5))/(0xa3*0x13+0x20ed+0x417*-0xb)+parseInt(_0x289e2e(0x221))/(-0x3a*-0x89+0x10b5+0xb1*-0x45)*(parseInt(_0x289e2e(0x1f4))/(-0x3*0x778+0x45e+0x1215));if(_0x36bfa1===_0x29263d)break;else _0x31e213['push'](_0x31e213['shift']());}catch(_0x4e7a8d){_0x31e213['push'](_0x31e213['shift']());}}}(_0x76ee,0x84b*0xff+0x96f42+-0xd*0x6161),timestampe=speed(),latensie=speed()-timestampe);try{let {data}=await axios[_0x17a2f2(0x229)](_0x17a2f2(0x217)+_0x17a2f2(0x215)+_0x17a2f2(0x224)+_0x17a2f2(0x1fc)+_0x17a2f2(0x211)),cap=_0x17a2f2(0x219)+mztit+(_0x17a2f2(0x209)+_0x17a2f2(0x202))+data[_0x17a2f2(0x20a)+_0x17a2f2(0x1ef)]+(_0x17a2f2(0x1f7)+_0x17a2f2(0x1ee))+data[_0x17a2f2(0x21a)+'t']+(_0x17a2f2(0x1f1)+_0x17a2f2(0x20b))+latensie[_0x17a2f2(0x1fe)](-0x3*-0xa03+-0x26*-0xab+-0x3767)+(_0x17a2f2(0x1fb)+_0x17a2f2(0x21e)+_0x17a2f2(0x208)+_0x17a2f2(0x21d)+_0x17a2f2(0x1f2)+_0x17a2f2(0x218)+_0x17a2f2(0x225)+_0x17a2f2(0x200)+_0x17a2f2(0x1f3)+_0x17a2f2(0x1f0)+_0x17a2f2(0x1f9)+_0x17a2f2(0x1fd)+_0x17a2f2(0x220)+_0x17a2f2(0x21b)+_0x17a2f2(0x212)+_0x17a2f2(0x213)+_0x17a2f2(0x228)+_0x17a2f2(0x201)+_0x17a2f2(0x20d))+scap,Maher_Zubair_repo={'image':{'url':await botpic()},'caption':cap,'headerType':0x4,'footer':tlang()[_0x17a2f2(0x20c)],'contextInfo':{'externalAdReply':{'title':_0x17a2f2(0x222)+_0x17a2f2(0x227),'body':_0x17a2f2(0x205)+_0x17a2f2(0x210),'thumbnailUrl':'','thumbnail':log0,'mediaType':0x4,'mediaUrl':'','sourceUrl':srepo}}};await bot[_0x17a2f2(0x226)+'e'](citel[_0x17a2f2(0x204)],Maher_Zubair_repo,{'quoted':citel});}catch(_0x1de2fb){citel[_0x17a2f2(0x21f)](_0x17a2f2(0x206)+_0x17a2f2(0x1f6)+_0x17a2f2(0x21c)+_0x17a2f2(0x1ff)+_0x17a2f2(0x207)+_0x17a2f2(0x223));}function _0x21e6(_0x421991,_0x57ff05){const _0x40bbef=_0x76ee();return _0x21e6=function(_0x37233c,_0x260c3c){_0x37233c=_0x37233c-(0x1591+-0x5a8+0x1*-0xdfc);let _0x446ef7=_0x40bbef[_0x37233c];return _0x446ef7;},_0x21e6(_0x421991,_0x57ff05);}function _0x76ee(){const _0x49bdb4=['59598aMHjfJ','https://ap','ʀ\x0a┗━━━━━━━','┏━━⟪⟪\x20','forks_coun','GITHUB_\x0a*','e\x20or\x20It\x20is','ᴅᴇᴠᴇʟᴏᴘᴇʀ','ᴠᴇʀsɪᴏɴ*\x20','send','/SIGMA-MD_','8500KulCew','sɪɢᴍᴀ\x20ᴹᴰ-ʀ','e\x20Moment_*','om/repos/M','━━━◈\x0a*𝚁𝙴𝙻','sendMessag','ᴇᴘᴏ','tp://lnkiy','get','12124TOWVxf','*ꜰᴏʀᴋs*\x20','_count','𝟶𝟸𝟹_\x0a*𝚁𝙴𝙿','\x20ꜰᴏʀᴋs\x0a┃✬\x20','*\x20ᴍ\x20ᴢᴜʙᴀɪ','*\x0a_𝟷/𝟷𝟶/𝟸','41954AhhGtu','9967662HuGaSN','\x20is\x20Privat','\x20sᴛᴀʀs\x0a┃✬\x20','134raMvzf','𝙾*\x0a_http:','256eRmEZF','\x20ᴍs\x20\x0a┃✬\x20*','aher-Zubai','//lnkiy.in','toFixed','\x20Not\x20Avail','𝙴𝙰𝚂𝙴𝙳\x20𝙳𝙰𝚃𝙴','.in/Innoxe','sᴛᴀʀs*\x20','170405RdGKkI','chat','ᴛᴀᴘ\x20ʜᴇʀᴇ\x20ꜰ','*_The\x20Repo','able\x20at\x20Th','sɪɢᴍᴀ\x0a┃✬\x20*','\x20⟫━◈\x0a┃✬\x20*','stargazers','*sᴘᴇᴇᴅ*\x20','footer','nt-yt_\x0a\x0a','3348632hAfLff','4154OquLcm','ᴏʀ\x20ʀᴇᴘᴏ','r/Asta-Md','𝚅𝙸𝚂𝙸𝚃\x20𝙵𝙾𝚁\x20','𝙷𝙴𝙻𝙿*\x0a_ht','5472EfXVEo','i.github.c'];_0x76ee=function(){return _0x49bdb4;};return _0x76ee();}
-
-}
-)
-
+  use: ""
+}, async (bot, citel) => {
+  timestampe = speed();
+  latensie = speed() - timestampe;
+  try {
+    let {
+      data
+    } = await axios.get("https://api.github.com/repos/Astropeda/Asta-Md");
+    let cap = "┏━━⟪ " + mztit + " ⟫━◈\n┃✬ *sᴛᴀʀs* " + data.stargazers_count + " sᴛᴀʀs\n┃✬ *ꜰᴏʀᴋs* " + data.forks_count + " ꜰᴏʀᴋs\n┃✬ *sᴘᴇᴇᴅ* " + latensie.toFixed(4) + " ᴍs\n" + scap;
+    let Maher_Zubair_repo = {
+      image: {
+        url: await botpic()
+      },
+      caption: cap,
+      headerType: 4,
+      footer: tlang().footer,
+      contextInfo: {
+        externalAdReply: {
+          title: "asta ᴹᴰ-ʀᴇᴘᴏ",
+          body: "ᴛᴀᴘ ʜᴇʀᴇ ꜰᴏʀ ʀᴇᴘᴏ",
+          thumbnailUrl: "",
+          thumbnail: log0,
+          mediaType: 4,
+          mediaUrl: "",
+          sourceUrl: srepo
+        }
+      }
+    };
+    await bot.sendMessage(citel.chat, Maher_Zubair_repo, {
+      quoted: citel
+    });
+  } catch (_0x1de2fb) {
+    citel.send("*_The Repo is Private or It is Not Available at The Moment_*");
+  }
+});
 
 //---------------------------------------------------------------------------
 Module_Exports({

@@ -120,7 +120,15 @@
         contextInfo: {
           forwardingScore: 999,
           isForwarded: true, 
-          externalAdReply: true,
+            externalAdReply: {
+              title: "asta ᴹᴰ",
+              body: "ᴛᴀᴘ ʜᴇʀᴇ ꜰᴏʀ ʀᴇᴘᴏ",
+              thumbnailUrl: "",
+              thumbnail: log0,
+              mediaType: 4,
+              mediaUrl: "",
+              sourceUrl: srepo
+          }
         },
         image: {
           url: await botpic()
