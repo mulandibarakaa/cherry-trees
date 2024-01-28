@@ -2,7 +2,7 @@ const { cmd } = require('../lib');
  let recordedMessage = '';
 
  cmd({
-   pattern: "setaccount",
+   kingcmd: "setaccount",
    desc: "Store a message as account number",
   fromMe:true,
    category: "utility",
@@ -18,7 +18,7 @@ const { cmd } = require('../lib');
  });
  //-------------------------------------------------------------
  cmd({
-   pattern: "delaccount",
+   kingcmd: "delaccount",
    desc: "Delete the recorded account number",
    category: "utility",
   fromme:true

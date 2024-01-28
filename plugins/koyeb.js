@@ -10,7 +10,7 @@ const { redeploy , getvar , delvar , getallvar , change_env , get_deployments} =
 //----------------------------------------------------------------------------------------------------------------------------------------------------
 cmd(
   {
-    pattern: "updatenow",
+    kingcmd: "updatenow",
     desc: "update bot with refreshed commit.",
     filename: __filename,
     category: "misc",
@@ -25,7 +25,7 @@ cmd(
 //----------------------------------------------------------------------------------------------------------------------------------------------------
 cmd(
   {
-    pattern: "koyebgetvar",
+    kingcmd: "koyebgetvar",
     desc: "get desired var from koyeb.",
     filename: __filename,
     category: "misc",
@@ -39,7 +39,7 @@ cmd(
 //----------------------------------------------------------------------------------------------------------------------------------------------------
 cmd(
   {
-    pattern: "getallvar",
+    kingcmd: "getallvar",
     desc: "get all vars from koyeb.",
     filename: __filename,
     category: "misc",
@@ -52,7 +52,7 @@ cmd(
 //----------------------------------------------------------------------------------------------------------------------------------------------------
 cmd(
   {
-    pattern: "koyebsetvar",
+    kingcmd: "koyebsetvar",
     desc: "set var in koyeb.",
     filename: __filename,
     category: "misc",
@@ -69,7 +69,7 @@ cmd(
 //----------------------------------------------------------------------------------------------------------------------------------------------------
 cmd(
   {
-    pattern: "koyebdelvar",
+    kingcmd: "koyebdelvar",
     desc: "delete var from koyeb.",
     filename: __filename,
     category: "misc",

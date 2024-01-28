@@ -172,7 +172,7 @@ Module_Exports({
       let url = "https://api.github.com/repos/" + user + "/" + repo + "/zipball";
       let filename = (await fetch(url, {
         method: "HEAD"
-      })).headers.get("content-disposition").match(/attachment; filename=(.*)/)[1];
+      })).headers.get("content-disposition").match(/attachment; filename= ?(.*)/)[1];
       await sigma.sendMessage(person.chat, {
         document: {
           url: url
