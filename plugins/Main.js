@@ -121,6 +121,15 @@ Module_Exports({
           forwardingScore: 999,
           isForwarded: true,
         },
+        externalAdReply: {
+          title: "ᴀꜱᴛᴀ ᴍᴅ 2024",
+          body: "ꜰᴏʟʟᴏᴡ ᴜꜱ",
+          thumbnailUrl: "",
+          thumbnail: log0,
+          mediaType: 4,
+          mediaUrl: "",
+          sourceUrl: sgc
+        },
         image: {
           url: await botpic()
         },
