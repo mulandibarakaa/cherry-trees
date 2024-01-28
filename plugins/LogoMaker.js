@@ -1,5 +1,3 @@
-
-
 let { tiny,  prefix,  Module_Exports,  getBuffer,name  } = require("../lib");
 //========================================================================================================
 async function singleText(Void, citel , url = '' , text1 , text2 ){
@@ -8,23 +6,23 @@ async function singleText(Void, citel , url = '' , text1 , text2 ){
 //========================================================================================================
 
 //-----------------------------------------------------------------------------------
-Module_Exports({ kingcmd: "slice", kingclass: "logo", infocmd: "Some text to image feature with various styles.",kingpath: __filename, }, async(Void, citel, text) => {
+Module_Exports({ kingcmd: "text1", kingclass: "text maker commands", infocmd: "Some text to image feature with various styles.",kingpath: __filename, }, async(Void, citel, text) => {
         if (!text) return citel.reply(`*_Example : ${prefix}slice Astro_*`);
         return await singleText(Void, citel , 'create-light-glow-sliced-text-effect-online-1068' , text )
     })
 //-----------------------------------------------------------------------------------
-Module_Exports({ kingcmd: "glow", kingclass: "logo", infocmd: "Some text to image feature with various styles.",kingpath: __filename, }, async(Void, citel, text) => {
+Module_Exports({ kingcmd: "text2", kingclass: "text maker commands", infocmd: "Some text to image feature with various styles.",kingpath: __filename, }, async(Void, citel, text) => {
         if (!text) return citel.reply(`*_Example : ${prefix}glow Astro_*`);
         return await singleText(Void, citel , 'free-advanced-glow-text-effect-873' , text )
     })
 //----------------------------------------------------------------------------------- 
-Module_Exports({ kingcmd: "glittch", kingclass: "logo", infocmd: "Some text to image feature with various styles.",kingpath: __filename, }, async(Void, citel, text) => {
+Module_Exports({ kingcmd: "text3", kingclass: "text maker commands", infocmd: "Some text to image feature with various styles.",kingpath: __filename, }, async(Void, citel, text) => {
         if (!text) return citel.reply(`*_Example : ${prefix}glittch Astro_*`);
         return await singleText(Void, citel , 'create-impressive-glitch-text-effects-online-1027' , text )        
     }) 
 //---------------------------------------------------------------------------
 //================================================================================================================================
-Module_Exports({ kingcmd: "stel",alias:['steal'],kingclass: "logo", infocmd: "Some text to image feature with various styles.",kingpath: __filename, }, async(Void, citel, text) => {
+Module_Exports({ kingcmd: "text4",alias:['steal'],kingclass: "text maker commands", infocmd: "Some text to image feature with various styles.",kingpath: __filename, }, async(Void, citel, text) => {
             if (!text) return citel.reply(`_Example : ${prefix}stel Maher;Zubair_`);  
             let text1 = text ? text.split(';')[0] : '';
             let text2 = text ? text.split(';')[1] : '';
@@ -32,7 +30,7 @@ Module_Exports({ kingcmd: "stel",alias:['steal'],kingclass: "logo", infocmd: "So
             return await singleText(Void, citel , '3d-steel-text-effect-877' , text1 , text2 )
         })
 //-----------------------------------------------------------------------------------
-Module_Exports({ kingcmd: "avenger",kingclass: "logo", infocmd: "Some text to image feature with various styles.",kingpath: __filename, }, async(Void, citel, text) => {
+Module_Exports({ kingcmd: "text5",kingclass: "text maker commands", infocmd: "Some text to image feature with various styles.",kingpath: __filename, }, async(Void, citel, text) => {
             if (!text) return citel.reply(`*_Example : ${prefix}avenger Maher;Zubair_*`);  
             let text1 = text ? text.split(';')[0] : '';
             let text2 = text ? text.split(';')[1] : '';
@@ -40,24 +38,17 @@ Module_Exports({ kingcmd: "avenger",kingclass: "logo", infocmd: "Some text to im
             return await singleText(Void, citel ,'create-3d-avengers-logo-online-974' , text1 , text2 )
         })
 //-----------------------------------------------------------------------------------
-Module_Exports({ kingcmd: "marvel",kingclass: "logo", infocmd: "Some text to image feature with various styles.",kingpath: __filename, }, async(Void, citel, text) => {
+Module_Exports({ kingcmd: "text6",kingclass: "text maker commands", infocmd: "Some text to image feature with various styles.",kingpath: __filename, }, async(Void, citel, text) => {
             if (!text) return citel.reply(`*_Example : ${prefix}marvel Maher;Zubair_*`);  
             let text1 = text ? text.split(';')[0] : '';
             let text2 = text ? text.split(';')[1] : '';
             if(!text2 || !text1) return await citel.reply(`*Please Provide text. Example: ${prefix}marvel text1;text2*`);
             return await singleText(Void, citel , 'create-logo-style-marvel-studios-ver-metal-972' , text1 , text2 )
         })
-//-----------------------------------------------------------------------------------
-Module_Exports({ kingcmd: "phub",kingclass: "logo", infocmd: "Some text to image feature with various styles.",kingpath: __filename, }, async(Void, citel, text) => {
-            if (!text) return citel.reply(`*_Example : ${prefix}phub Maher;Zubair_*`);  
-            let text1 = text ? text.split(';')[0] : '';
-            let text2 = text ? text.split(';')[1] : '';
-            if(!text2 || !text1) return await citel.reply(`*Please Provide text. Example: ${prefix}phub text1;text2*`);
-            return await singleText(Void, citel , 'pornhub-style-logo-online-generator-free-977' , text1 , text2 )
-        })
+//
 //-----------------------------------------------------------------------------------
 
-Module_Exports({ kingcmd: "glitch3",kingclass: "logo", infocmd: "Some text to image feature with various styles.",kingpath: __filename, }, async(Void, citel, text) => {
+Module_Exports({ kingcmd: "text7",kingclass: "text maker commands", infocmd: "Some text to image feature with various styles.",kingpath: __filename, }, async(Void, citel, text) => {
             if (!text) return citel.reply(`*_Example : ${prefix}glitch3 Maher;Zubair_*`);  
             let text1 = text ? text.split(';')[0] : '';
             let text2 = text ? text.split(';')[1] : '';
@@ -65,7 +56,7 @@ Module_Exports({ kingcmd: "glitch3",kingclass: "logo", infocmd: "Some text to im
             return await singleText(Void, citel ,'create-glitch-text-effect-style-tik-tok-983', text1 , text2 )
         })
 //-----------------------------------------------------------------------------------
-Module_Exports({ kingcmd: "glitch2",kingclass: "logo", infocmd: "Some text to image feature with various styles.",kingpath: __filename, }, async(Void, citel, text) => {
+Module_Exports({ kingcmd: "text8",kingclass: "text maker commands", infocmd: "Some text to image feature with various styles.",kingpath: __filename, }, async(Void, citel, text) => {
             if (!text) return citel.reply(`*_Example : ${prefix}glitch2 Maher;Zubair_*`);  
             let text1 = text ? text.split(';')[0] : '';
             let text2 = text ? text.split(';')[1] : '';
@@ -73,7 +64,7 @@ Module_Exports({ kingcmd: "glitch2",kingclass: "logo", infocmd: "Some text to im
             return await singleText(Void, citel , 'create-a-glitch-text-effect-online-free-1026' , text1 , text2 )
         })
 //-----------------------------------------------------------------------------------
-Module_Exports({ kingcmd: "grafiti",kingclass: "logo", infocmd: "Some text to image feature with various styles.",kingpath: __filename, }, async(Void, citel, text) => {
+Module_Exports({ kingcmd: "text9",kingclass: "text maker commands", infocmd: "Some text to image feature with various styles.",kingpath: __filename, }, async(Void, citel, text) => {
             if (!text) return citel.reply(`*_Example : ${prefix}grafiti Maher;Zubair_*`);  
             let text1 = text ? text.split(';')[0] : '';
             let text2 = text ? text.split(';')[1] : '';
@@ -82,207 +73,207 @@ Module_Exports({ kingcmd: "grafiti",kingclass: "logo", infocmd: "Some text to im
         })
 //================================================================================================================================
     //---------------------------------------------------------------------------
-    Module_Exports({ kingcmd: "deepsea", kingclass: "logo", infocmd: "Some text to image feature with various styles.",kingpath: __filename, }, async(Void, citel, text) => {
+    Module_Exports({ kingcmd: "text10", kingclass: "text maker commands", infocmd: "Some text to image feature with various styles.",kingpath: __filename, }, async(Void, citel, text) => {
         if (!text) return citel.reply(`*_Example: ${prefix}deepsea Zubair_*`)
         return await singleText(Void, citel , 'create-3d-deep-sea-metal-text-effect-online-1053' , text )
     })
     //---------------------------------------------------------------------------
-Module_Exports({ kingcmd: "horror", kingclass: "logo", infocmd: "Some text to image feature with various styles.",kingpath: __filename, }, async(Void, citel, text) => {
+Module_Exports({ kingcmd: "text11", kingclass: "text maker commands", infocmd: "Some text to image feature with various styles.",kingpath: __filename, }, async(Void, citel, text) => {
         if (!text) return citel.reply(`*_Example: ${prefix}horror Zubair_*`)
         return await singleText(Void, citel ,'horror-blood-text-effect-online-883'  , text )
     })
     //---------------------------------------------------------------------------
-Module_Exports({ kingcmd: "whitebear", kingclass: "logo", infocmd: "Some text to image feature with various styles.",kingpath: __filename, }, async(Void, citel, text) => {
+Module_Exports({ kingcmd: "text12", kingclass: "text maker commands", infocmd: "Some text to image feature with various styles.",kingpath: __filename, }, async(Void, citel, text) => {
         if (!text) return citel.reply(`*_Example: ${prefix}whitebear Zubair_*`)
         return await singleText(Void, citel ,'online-black-and-white-bear-mascot-logo-creation-1012', text )
     })
     //---------------------------------------------------------------------------
-Module_Exports({ kingcmd: "joker", kingclass: "logo", infocmd: "Some text to image feature with various styles.",kingpath: __filename, }, async(Void, citel, text) => {
+Module_Exports({ kingcmd: "text13", kingclass: "text maker commands", infocmd: "Some text to image feature with various styles.",kingpath: __filename, }, async(Void, citel, text) => {
         if (!text) return citel.reply(`*_Example: ${prefix}joker Zubair_*`)
         return await singleText(Void, citel , 'create-logo-joker-online-934' , text )
     })
     //---------------------------------------------------------------------------
-Module_Exports({ kingcmd: "metallic", kingclass: "logo", infocmd: "Some text to image feature with various styles.",kingpath: __filename, }, async(Void, citel, text) => {
+Module_Exports({ kingcmd: "text14", kingclass: "text maker commands", infocmd: "Some text to image feature with various styles.",kingpath: __filename, }, async(Void, citel, text) => {
         if (!text) return citel.reply(`*_Example: ${prefix}metallic Zubair_*`)
         return await singleText(Void, citel , 'create-a-metallic-text-effect-free-online-1041' , text )
     })
     //---------------------------------------------------------------------------
-Module_Exports({ kingcmd: "steel", kingclass: "logo", infocmd: "Some text to image feature with various styles.",kingpath: __filename, }, async(Void, citel, text) => {
+Module_Exports({ kingcmd: "text15", kingclass: "text maker commands", infocmd: "Some text to image feature with various styles.",kingpath: __filename, }, async(Void, citel, text) => {
         if (!text) return citel.reply(`*_Example: ${prefix}steel Zubair_*`)
         return await singleText(Void, citel , 'steel-text-effect-online-921' , text )
     })
     //---------------------------------------------------------------------------
-Module_Exports({ kingcmd: "harrypotter", kingclass: "logo", infocmd: "Some text to image feature with various styles.",kingpath: __filename, }, async(Void, citel, text) => {
+Module_Exports({ kingcmd: "text16", kingclass: "text maker commands", infocmd: "Some text to image feature with various styles.",kingpath: __filename, }, async(Void, citel, text) => {
         if (!text) return citel.reply(`*_Example: ${prefix}harrypotter Zubair_*`)
         return await singleText(Void, citel , 'create-harry-potter-text-effect-online-1025' , text )
     })
     //---------------------------------------------------------------------------
-Module_Exports({ kingcmd: "underwater", kingclass: "logo", infocmd: "Some text to image feature with various styles.",kingpath: __filename, }, async(Void, citel, text) => {
+Module_Exports({ kingcmd: "text17", kingclass: "text maker commands", infocmd: "Some text to image feature with various styles.",kingpath: __filename, }, async(Void, citel, text) => {
         if (!text) return citel.reply(`*_Example: ${prefix}underwater Zubair_*`)
         return await singleText(Void, citel , '3d-underwater-text-effect-generator-online-1013' , text )
     })
     //---------------------------------------------------------------------------
-Module_Exports({ kingcmd: "luxury", kingclass: "logo", infocmd: "Some text to image feature with various styles.",kingpath: __filename, }, async(Void, citel, text) => {
+Module_Exports({ kingcmd: "text18", kingclass: "text maker commands", infocmd: "Some text to image feature with various styles.",kingpath: __filename, }, async(Void, citel, text) => {
         if (!text) return citel.reply(`*_Example: ${prefix}luxury Zubair_*`)
         return await singleText(Void, citel , '3d-luxury-gold-text-effect-online-1003' , text )
 
     })
     //---------------------------------------------------------------------------
-Module_Exports({ kingcmd: "glue", kingclass: "logo", infocmd: "Some text to image feature with various styles.",kingpath: __filename, }, async(Void, citel, text) => {
+Module_Exports({ kingcmd: "text19", kingclass: "text maker commands", infocmd: "Some text to image feature with various styles.",kingpath: __filename, }, async(Void, citel, text) => {
         if (!text) return citel.reply(`*_Example: ${prefix}glue Zubair_*`)
         return await singleText(Void, citel , 'create-3d-glue-text-effect-with-realistic-style-986' , text )
     })
     //---------------------------------------------------------------------------
-Module_Exports({ kingcmd: "fabric", kingclass: "logo", infocmd: "Some text to image feature with various styles.",kingpath: __filename, }, async(Void, citel, text) => {
+Module_Exports({ kingcmd: "text20", kingclass: "text maker commands", infocmd: "Some text to image feature with various styles.",kingpath: __filename, }, async(Void, citel, text) => {
         if (!text) return citel.reply(`*_Example: ${prefix}fabric Zubair_*`)
         return await singleText(Void, citel , 'fabric-text-effect-online-964' , text )
     })
     //---------------------------------------------------------------------------
-Module_Exports({ kingcmd: "toxic", kingclass: "logo", infocmd: "Some text to image feature with various styles.",kingpath: __filename, }, async(Void, citel, text) => {
+Module_Exports({ kingcmd: "text21", kingclass: "text maker commands", infocmd: "Some text to image feature with various styles.",kingpath: __filename, }, async(Void, citel, text) => {
         if (!text) return citel.reply(`*_Example: ${prefix}toxic Zubair_*`)
         return await singleText(Void, citel , 'toxic-text-effect-online-901' , text )
     })
     //---------------------------------------------------------------------------
-Module_Exports({ kingcmd: "ancient", kingclass: "logo", infocmd: "Some text to image feature with various styles.",kingpath: __filename, }, async(Void, citel, text) => {
+Module_Exports({ kingcmd: "text22", kingclass: "text maker commands", infocmd: "Some text to image feature with various styles.",kingpath: __filename, }, async(Void, citel, text) => {
         if (!text) return citel.reply(`*_Example: ${prefix}ancient Zubair_*`)
         return await singleText(Void, citel , '3d-golden-ancient-text-effect-online-free-1060' , text )
     })
     //---------------------------------------------------------------------------
-Module_Exports({ kingcmd: "cloud", kingclass: "logo", infocmd: "Some text to image feature with various styles.",kingpath: __filename, }, async(Void, citel, text) => {
+Module_Exports({ kingcmd: "text23", kingclass: "text maker commands", infocmd: "Some text to image feature with various styles.",kingpath: __filename, }, async(Void, citel, text) => {
             if (!text) return citel.reply(`*_Example: ${prefix}cloud Zubair_*`)
             return await singleText(Void, citel , 'create-a-cloud-text-effect-on-the-sky-online-1004' , text )
     })
     //---------------------------------------------------------------------------
-Module_Exports({ kingcmd: "transformer", kingclass: "logo", infocmd: "Some text to image feature with various styles.",kingpath: __filename, }, async(Void, citel, text) => {
+Module_Exports({ kingcmd: "text24", kingclass: "text maker commands", infocmd: "Some text to image feature with various styles.",kingpath: __filename, }, async(Void, citel, text) => {
             if (!text) return citel.reply(`*_Example: ${prefix}transformer Zubair_*`)
             return await singleText(Void, citel , 'create-a-transformer-text-effect-online-1035' , text )
         })
     //---------------------------------------------------------------------------
-Module_Exports({ kingcmd: "thunder", kingclass: "logo", infocmd: "Some text to image feature with various styles.",kingpath: __filename, }, async(Void, citel, text) => {
+Module_Exports({ kingcmd: "text25", kingclass: "text maker commands", infocmd: "Some text to image feature with various styles.",kingpath: __filename, }, async(Void, citel, text) => {
             if (!text) return citel.reply(`*_Example: ${prefix}thunder Zubair_*`)
             return await singleText(Void, citel ,'online-thunder-text-effect-generator-1031'  , text )
         })
     //---------------------------------------------------------------------------
-Module_Exports({ kingcmd: "scifi", kingclass: "logo", infocmd: "Some text to image feature with various styles.",kingpath: __filename, }, async(Void, citel, text) => {
+Module_Exports({ kingcmd: "text26", kingclass: "text maker commands", infocmd: "Some text to image feature with various styles.",kingpath: __filename, }, async(Void, citel, text) => {
             if (!text) return citel.reply(`*_Example: ${prefix}scifi Zubair_*`)
             return await singleText(Void, citel , 'create-3d-sci-fi-text-effect-online-1050' , text )
         })
     //---------------------------------------------------------------------------
-Module_Exports({kingcmd: "sand", kingclass: "logo", infocmd: "Some text to image feature with various styles.",kingpath: __filename, }, async(Void, citel, text) => {
+Module_Exports({kingcmd: "text27", kingclass: "text maker commands", infocmd: "Some text to image feature with various styles.",kingpath: __filename, }, async(Void, citel, text) => {
             if (!text) return citel.reply(`*_Example: ${prefix}sand Zubair_*`)
             return await singleText(Void, citel ,'write-in-sand-summer-beach-free-online-991'  , text )
         })
     //---------------------------------------------------------------------------
-Module_Exports({ kingcmd: "rainbow", kingclass: "logo", infocmd: "Some text to image feature with various styles.",kingpath: __filename, }, async(Void, citel, text) => {
+Module_Exports({ kingcmd: "text28", kingclass: "text maker commands", infocmd: "Some text to image feature with various styles.",kingpath: __filename, }, async(Void, citel, text) => {
             if (!text) return citel.reply(`*_Example: ${prefix}rainbow Zubair_*`)
             return await singleText(Void, citel , '3d-rainbow-color-calligraphy-text-effect-1049' , text )
         })
     //---------------------------------------------------------------------------
-Module_Exports({ kingcmd: "pencil", kingclass: "logo", infocmd: "Some text to image feature with various styles.",kingpath: __filename, }, async(Void, citel, text) => {
+Module_Exports({ kingcmd: "text29", kingclass: "text maker commands", infocmd: "Some text to image feature with various styles.",kingpath: __filename, }, async(Void, citel, text) => {
             if (!text) return citel.reply(`*_Example: ${prefix}pencil Zubair_*`)
             return await singleText(Void, citel , 'create-a-sketch-text-effect-online-1044' , text )
         })
     //---------------------------------------------------------------------------
-Module_Exports({ kingcmd: "neon2", kingclass: "logo", infocmd: "Some text to image feature with various styles.",kingpath: __filename, }, async(Void, citel, text) => {
+Module_Exports({ kingcmd: "text30", kingclass: "text maker commands", infocmd: "Some text to image feature with various styles.",kingpath: __filename, }, async(Void, citel, text) => {
             if (!text) return citel.reply(`*_Example: ${prefix}neon2 Zubair_*`)
             return await singleText(Void, citel , 'create-3d-neon-light-text-effect-online-1028' , text )
         })
     //---------------------------------------------------------------------------
-Module_Exports({kingcmd: "magma", kingclass: "logo", infocmd: "Some text to image feature with various styles.",kingpath: __filename, }, async(Void, citel, text) => {
+Module_Exports({kingcmd: "text31", kingclass: "text maker commands", infocmd: "Some text to image feature with various styles.",kingpath: __filename, }, async(Void, citel, text) => {
             if (!text) return citel.reply(`*_Example: ${prefix}magma Zubair_*`)
             return await singleText(Void, citel ,'create-a-magma-hot-text-effect-online-1030'  , text )
         })
     //---------------------------------------------------------------------------
-Module_Exports({ kingcmd: "leaves", kingclass: "logo", infocmd: "Some text to image feature with various styles.",kingpath: __filename, }, async(Void, citel, text) => {
+Module_Exports({ kingcmd: "text32", kingclass: "text maker commands", infocmd: "Some text to image feature with various styles.",kingpath: __filename, }, async(Void, citel, text) => {
             if (!text) return citel.reply(`*_Example: ${prefix}leaves Zubair_*`)
             return await singleText(Void, citel , 'natural-leaves-text-effect-931' , text )
         })
     //---------------------------------------------------------------------------
-Module_Exports({ kingcmd: "glitch", kingclass: "logo", infocmd: "Some text to image feature with various styles.",kingpath: __filename, }, async(Void, citel, text) => {
+Module_Exports({ kingcmd: "text33", kingclass: "text maker commands", infocmd: "Some text to image feature with various styles.",kingpath: __filename, }, async(Void, citel, text) => {
             if (!text) return citel.reply(`*_Example: ${prefix}glitch Zubair_*`)
             return await singleText(Void, citel , 'create-impressive-glitch-text-effects-online-1027' , text )
         })
     //---------------------------------------------------------------------------
-Module_Exports({ kingcmd: "discovery", kingclass: "logo", infocmd: "Some text to image feature with various styles.",kingpath: __filename, }, async(Void, citel, text) => {
+Module_Exports({ kingcmd: "text34", kingclass: "text maker commands", infocmd: "Some text to image feature with various styles.",kingpath: __filename, }, async(Void, citel, text) => {
             if (!text) return citel.reply(`*_Example: ${prefix}discovery Zubair_*`)
             return await singleText(Void, citel , 'create-space-text-effects-online-free-1042' , text )
         })
     //---------------------------------------------------------------------------
-Module_Exports({ kingcmd: "christmas", kingclass: "logo", infocmd: "Some text to image feature with various styles.",kingpath: __filename, }, async(Void, citel, text) => {
+Module_Exports({ kingcmd: "text35", kingclass: "text maker commands", infocmd: "Some text to image feature with various styles.",kingpath: __filename, }, async(Void, citel, text) => {
             if (!text) return citel.reply(`*_Example: ${prefix}christmas Zubair_*`)
             return await singleText(Void, citel ,'christmas-tree-text-effect-online-free-1057'  , text )
         })
     //---------------------------------------------------------------------------
-Module_Exports({ kingcmd: "candy", kingclass: "logo", infocmd: "Some text to image feature with various styles.",kingpath: __filename, }, async(Void, citel, text) => {
+Module_Exports({ kingcmd: "text36", kingclass: "text maker commands", infocmd: "Some text to image feature with various styles.",kingpath: __filename, }, async(Void, citel, text) => {
             if (!text) return citel.reply(`*_Example: ${prefix}candy Zubair_*`)
             return await singleText(Void, citel , 'create-christmas-candy-cane-text-effect-1056' , text )
         })
     //---------------------------------------------------------------------------
-Module_Exports({ kingcmd: "1917", kingclass: "logo", infocmd: "Some text to image feature with various styles.",kingpath: __filename, }, async(Void, citel, text) => {
+Module_Exports({ kingcmd: "text37", kingclass: "text maker commands", infocmd: "Some text to image feature with various styles.",kingpath: __filename, }, async(Void, citel, text) => {
             if (!text) return citel.reply(`*_Example: ${prefix}1917 Zubair_*`)
             return await singleText(Void, citel , '1917-style-text-effect-online-980' , text )
         })
     //---------------------------------------------------------------------------
-Module_Exports({ kingcmd: "blackpink", kingclass: "logo", infocmd: "Some text to image feature with various styles.",kingpath: __filename, }, async(Void, citel, text) => {
+Module_Exports({ kingcmd: "text38", kingclass: "text maker commands", infocmd: "Some text to image feature with various styles.",kingpath: __filename, }, async(Void, citel, text) => {
         if (!text) return citel.reply(`*_Example: ${prefix}blackpink Zubair_*`)
         return await singleText(Void, citel , 'create-blackpink-logo-style-online-1001' , text )
     })
 
 //-------------------------------------------------------------------------------
-Module_Exports({ kingcmd: "neon", kingclass: "logo", infocmd: "Some text to image feature with various styles.",kingpath: __filename, }, async(Void, citel, text) => {
+Module_Exports({ kingcmd: "text39", kingclass: "text maker commands", infocmd: "Some text to image feature with various styles.",kingpath: __filename, }, async(Void, citel, text) => {
     if (!text) return citel.reply(`*_Example: ${prefix}neon Zubair_*`)
     return await singleText(Void, citel , 'neon-light-style-3d-text-effect-online-1132' , text )
 })
 //-------------------------------------------------------------------------------
-Module_Exports({ kingcmd: "summer", kingclass: "logo", infocmd: "Some text to image feature with various styles.",kingpath: __filename, }, async(Void, citel, text) => {
+Module_Exports({ kingcmd: "text40", kingclass: "text maker commands", infocmd: "Some text to image feature with various styles.",kingpath: __filename, }, async(Void, citel, text) => {
     if (!text) return citel.reply(`*_Example: ${prefix}summer Zubair_*`)
     return await singleText(Void, citel , 'create-a-summer-neon-light-text-effect-online-1076' , text )
 })
 //-------------------------------------------------------------------------------
-Module_Exports({ kingcmd: "pixel", kingclass: "logo", infocmd: "Some text to image feature with various styles.",kingpath: __filename, }, async(Void, citel, text) => {
+Module_Exports({ kingcmd: "text41", kingclass: "text maker commands", infocmd: "Some text to image feature with various styles.",kingpath: __filename, }, async(Void, citel, text) => {
     if (!text) return citel.reply(`*_Example: ${prefix}pixel Zubair_*`)
     return await singleText(Void, citel , 'online-3d-pixel-text-effect-generator-1138' , text )
 })
-Module_Exports({ kingcmd: "2024", kingclass: "logo", infocmd: "Some text to image feature with various styles.",kingpath: __filename, }, async(Void, citel, text) => {
+Module_Exports({ kingcmd: "text42", kingclass: "text maker commands", infocmd: "Some text to image feature with various styles.",kingpath: __filename, }, async(Void, citel, text) => {
     if (!text) return citel.reply(`*_Example: ${prefix}2024 Zubair_*`)
     return await singleText(Void, citel , 'happy-new-year-2024-greeting-3d-card-1058' , text )
 })
-Module_Exports({ kingcmd: "newyear", kingclass: "logo", infocmd: "Some text to image feature with various styles.",kingpath: __filename, }, async(Void, citel, text) => {
+Module_Exports({ kingcmd: "text43", kingclass: "text maker commands", infocmd: "Some text to image feature with various styles.",kingpath: __filename, }, async(Void, citel, text) => {
     if (!text) return citel.reply(`*_Example: ${prefix}newyear Zubair_*`)
     return await singleText(Void, citel , 'new-year-cards-3d-by-name-960' , text )
 })
-Module_Exports({ kingcmd: "party", kingclass: "logo", infocmd: "Some text to image feature with various styles.",kingpath: __filename, }, async(Void, citel, text) => {
+Module_Exports({ kingcmd: "text44", kingclass: "text maker commands", infocmd: "Some text to image feature with various styles.",kingpath: __filename, }, async(Void, citel, text) => {
     if (!text) return citel.reply(`*_Example: ${prefix}party Zubair_*`)
     return await singleText(Void, citel , 'party-text-effect-with-the-night-event-theme-1105' , text )
 })
-Module_Exports({ kingcmd: "valentine", kingclass: "logo", infocmd: "Some text to image feature with various styles.",kingpath: __filename, }, async(Void, citel, text) => {
+Module_Exports({ kingcmd: "text45", kingclass: "text maker commands", infocmd: "Some text to image feature with various styles.",kingpath: __filename, }, async(Void, citel, text) => {
     if (!text) return citel.reply(`*_Example: ${prefix}valentine Zubair_*`)
     return await singleText(Void, citel , 'create-realistic-golden-text-effect-on-red-sparkles-online-1082' , text )
 })
-Module_Exports({ kingcmd: "frozen", kingclass: "logo", infocmd: "Some text to image feature with various styles.",kingpath: __filename, }, async(Void, citel, text) => {
+Module_Exports({ kingcmd: "text46", kingclass: "text maker commands", infocmd: "Some text to image feature with various styles.",kingpath: __filename, }, async(Void, citel, text) => {
     if (!text) return citel.reply(`*_Example: ${prefix}frozen Zubair_*`)
     return await singleText(Void, citel , 'create-realistic-3d-text-effect-frozen-winter-1099' , text )
 })
-Module_Exports({ kingcmd: "golden",kingclass: "logo", infocmd: "Some text to image feature with various styles.",kingpath: __filename, }, async(Void, citel, text) => {
+Module_Exports({ kingcmd: "text47",kingclass: "text maker commands", infocmd: "Some text to image feature with various styles.",kingpath: __filename, }, async(Void, citel, text) => {
     if (!text) return citel.reply(`_Example : ${prefix}golden Maher;Zubair_`);  
     let text1 = text ? text.split(';')[0] : '';
     let text2 = text ? text.split(';')[1] : '';
     if(!text2 || !text1) return await citel.reply(`*Please Provide text. Example: ${prefix}golden text1;text2*`);
     return await singleText(Void, citel , 'text-logo-3d-metal-gold-944' , text1 , text2 )
 })
-Module_Exports({ kingcmd: "glass", kingclass: "logo", infocmd: "Some text to image feature with various styles.",kingpath: __filename, }, async(Void, citel, text) => {
+Module_Exports({ kingcmd: "text48", kingclass: "text maker commands", infocmd: "Some text to image feature with various styles.",kingpath: __filename, }, async(Void, citel, text) => {
     if (!text) return citel.reply(`*_Example: ${prefix}glass Zubair_*`)
     return await singleText(Void, citel , '3d-chrome-text-effect-827' , text )})
-Module_Exports({ kingcmd: "deluxe", kingclass: "logo", infocmd: "Some text to image feature with various styles.",kingpath: __filename, }, async(Void, citel, text) => {
+Module_Exports({ kingcmd: "text49", kingclass: "text maker commands", infocmd: "Some text to image feature with various styles.",kingpath: __filename, }, async(Void, citel, text) => {
         if (!text) return citel.reply(`*_Example: ${prefix}deluxe Zubair_*`)
         return await singleText(Void, citel , 'deluxe-silver-text-effect-970' , text )})
-Module_Exports({ kingcmd: "captain",kingclass: "logo", infocmd: "Some text to image feature with various styles.",kingpath: __filename, }, async(Void, citel, text) => {
+Module_Exports({ kingcmd: "text50",kingclass: "text maker commands", infocmd: "Some text to image feature with various styles.",kingpath: __filename, }, async(Void, citel, text) => {
             if (!text) return citel.reply(`_Example : ${prefix}captain Maher;Zubair_`);  
             let text1 = text ? text.split(';')[0] : '';
             let text2 = text ? text.split(';')[1] : '';
             if(!text2 || !text1) return await citel.reply(`*Please Provide text. Example: ${prefix}captain text1;text2*`);
             return await singleText(Void, citel , 'create-a-captain-america-text-effect-free-online-1039' , text1 , text2 )})
-Module_Exports({ kingcmd: "black", kingclass: "logo", infocmd: "Some text to image feature with various styles.",kingpath: __filename, }, async(Void, citel, text) => {
+Module_Exports({ kingcmd: "text51", kingclass: "text maker commands", infocmd: "Some text to image feature with various styles.",kingpath: __filename, }, async(Void, citel, text) => {
                 if (!text) return citel.reply(`*_Example: ${prefix}black Zubair_*`)
                 return await singleText(Void, citel , 'shiny-black-3d-text-effect-generator-1143' , text )})
 
