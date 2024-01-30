@@ -127,11 +127,11 @@ Module_Exports({
             thumbnail: log0,
             mediaType: 4,
             mediaUrl: "",
-            sourceUrl: sgc
+            sourceUrl: "https://web-qr-asta-md-e94d91b92bbf.herokuapp.com"
           }
         },
         image: {
-          url: false //await botpic()
+          url: await botpic()
         },
         caption: _0x33ce6e ? _0x33ce6e : _0x372184
       });
