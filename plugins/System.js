@@ -334,7 +334,7 @@ Module_Exports({
         },
         async(sigma, citel, text, {isCreator}) => {
           let get = text;
-          let alivemessage = `*ι αм σηℓιηє нσω ¢αη ι нєℓρ уσυ*\n*_To Update ALive Message Use_*\n*Eg: _${prefix}alive Your_Alive_Message_*`;
+          let alivemessage = `*ι αм σηℓιηє нσω ¢αη ι нєℓρ уσυ*`;
           let urll = '';     
           let image = false;
           let video = false;
@@ -381,10 +381,10 @@ if(isCreator && text != "")
         
           image = aliv.image || false;
           video=aliv.video || false ;
-          urll = aliv.url || await botpic() ;
+          urll = aliv.url || false ;
 
           
-const alivtxt = `${alivemessage}\n\n*ι αм σηℓιηє нσω ¢αη ι нєℓρ уσυ*\n*_To Update ALive Message Use_*\n*Eg: _${prefix}alive Your_Alive_Message_*`;
+const alivtxt = `${alivemessage}\n\n*ι αм σηℓιηє нσω ¢αη ι нєℓρ уσυ*`;
  const messageOptions = image ? { image: { url: urll }, caption: alivtxt }
                         : video? { video: { url: urll },gifPlayback: true, caption: alivtxt }
                         : { image: { url: await botpic() }, caption: alivtxt };
