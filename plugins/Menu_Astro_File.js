@@ -131,7 +131,7 @@ Module_Exports({
           }
         },
         image: {
-          url: await botpic()
+          url: false //await botpic()
         },
         caption: _0x33ce6e ? _0x33ce6e : _0x372184
       });
