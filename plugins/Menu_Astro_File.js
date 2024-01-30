@@ -115,7 +115,7 @@ Module_Exports({
           _0x372184 += "──────────⊷\n──────────────⊷\n";
         }
       }
-      _0x372184 += " *ᴀsᴛᴀ-ᴍᴅ ᴡʜᴀᴛsᴀᴘᴘ ʙᴏᴛ* ";
+      _0x372184 += " *Join Us:* https://chat.whatsapp.com/E39qMdWBujOHGVgWBY3XW1\n *ᴀsᴛᴀ-ᴍᴅ ᴡʜᴀᴛsᴀᴘᴘ ʙᴏᴛ* ";
       return await _0x3c2b7e.sendMessage(_0x4be39a.chat, {
         contextInfo: {
           forwardingScore: 999,
