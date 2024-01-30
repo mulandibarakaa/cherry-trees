@@ -54,7 +54,7 @@
     });
   };
 
-Module_Exports({
+sɪɢᴍᴀ_ᴍᴅ.Module_Exports({
     kingcmd: "menu",
     shortcut: ["list"],
     infocmd: "All Commands lists",
