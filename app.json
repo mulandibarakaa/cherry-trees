@@ -1,5 +1,5 @@
 {
-  "name": "Asta-Md WHATSAPP BOT BY Astro",
+  "name": "Asta-Md WHATSAPP BOT BY Cherry tree",
   "description": "A Whatsapp Bot",
   "logo": "https://leadier-umbrellas.000webhostapp.com/asta2.jpg",
   "keywords": ["nodejs", "bot", "whatsapp bot"],
@@ -8,7 +8,7 @@
 "env": {
   "OWNER_NAME": {
   "description": "Bot Owner",
-      "value": "ᴀsᴛʀᴏ"
+      "value": "Cherry"
   },
  "HEROKU_API_KEY": {
     "description": "Your Heroku Api Key",
@@ -25,11 +25,11 @@
       },
       "OWNER_NUMBER": {
         "description": "The phone numbers of the users who you want to be admin for the bot (should be in international format without + and multiple numbers must be separated by a comma \",\")",
-           "value": "2348039607375"
+           "value": "25412345678"
       },
        "SESSION_ID": {
         "description": "SESSION_ID",
-        "value": "Asta-Md;;;"
+        "value": "Cherry;;;"
       },
       "THUMB_IMAGE": {
         "description": "Image for bot.",
@@ -101,27 +101,27 @@
   },
 "TIME_ZONE": {
   "description": "Add Your TimeZone. make sure the timzone is correct/Otherwise you will have errors",
-   "value": "Africa/Lagos"
+   "value": "Africa/Nairobi"
     
 },
 "MZTIT": {
   "description": "Add Your Title",
-   "value": "ᴀsᴛᴀ-ᴍᴅ"
+   "value": "Cherry"
     
 },
 "GNAME": {
   "description": "Add Your Group Name Here.You Can See in Most Commands",
-   "value": "ᴀsᴛᴀ-ᴍᴅ-sᴜᴘᴘᴏʀᴛ",
+   "value": "undefined",
     "required": false
 },
 "WAURL": {
   "description": "Add Your Group Link.You Can See IT IN Most Commands",
-   "value": "https://chat.whatsapp.com/L1XNePCPC8O6rw9JeQ0iLB",
+   "value": "https://chat.whatsapp.com/L1XNePCPC8O6rw9JeQ0B",
     "required": false
 },
 "BOT_NAME": {
   "description": "Add Your Own Bot Name",
-   "value": "ᴀsᴛᴀ-ᴍᴅ"
+   "value": "cherry-md"
     
 },
 "REMOVE_BG_KEY": {
