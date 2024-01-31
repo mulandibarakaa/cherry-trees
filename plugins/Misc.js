@@ -719,6 +719,6 @@ else return citel.reply(`Antispam : kick Users Who Spamming in Groupn\n\nAntispa
  
  })
 
- // All These Misc Commamnds Are Developed By @Astropeda
- // Whatsapp +2348039607375
+ // All These Misc Commamnds Are Developed By Humans
+ // Whatsapp +254768827492
  // Usage And CopyRights Are Reserved
